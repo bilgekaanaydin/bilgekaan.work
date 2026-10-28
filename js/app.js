@@ -224,7 +224,8 @@ let introPlayed = false;
 function cardHTML(p) {
   const bits = (p.awards || []).map(a => awardHTML(a, false)).join('') + (p.ai ? `<span class="chip">${esc(U(t('ai')))}</span>` : '');
   const badges = bits ? `<div class="badges">${bits}</div>` : '';
-  const prev = p.preview && VIDS[p.preview] ? `<video class="vid card-vid" data-src="${VIDS[p.preview].u}" style="object-position:${p.previewPos || '50% 50%'}" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>` : '';
+  const pv = p.preview && VIDS[p.preview];
+  const prev = pv ? `<video class="vid card-vid" data-src="${VIDS[p.preview].u}" style="object-position:${p.previewPos || '50% 50%'}" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>` : '';
   return `<a class="card" href="#${p.slug}">
     <div class="img"><img src="${IMGS[p.cover]}" alt="${esc(p.alt)}" style="object-position:${p.pos || '50% 50%'}" loading="lazy" decoding="async">${prev}${badges}</div>
     <div class="row"><h3>${esc(p.upper)}</h3><span class="tags">${esc(U(tx(p.tags).join(', ')))}</span></div>

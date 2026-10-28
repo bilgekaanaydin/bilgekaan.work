@@ -100,6 +100,23 @@ const IMGS = {
  "yt-maldives": "assets/img/yt-maldives.webp",
  "sutas-thumb": "assets/img/sutas-thumb.webp",
  "yt-sutas": "assets/img/yt-sutas.webp",
+ "hs-1": "assets/img/hs-1.webp",
+ "hs-2": "assets/img/hs-2.webp",
+ "hs-3": "assets/img/hs-3.webp",
+ "hp-k1": "assets/img/hp-k1.webp",
+ "hp-k2": "assets/img/hp-k2.webp",
+ "hp-k3": "assets/img/hp-k3.webp",
+ "ek-banner": "assets/img/ek-banner.webp",
+ "ek-mock": "assets/img/ek-mock.webp",
+ "ey-1": "assets/img/ey-1.webp",
+ "ey-m1": "assets/img/ey-m1.webp",
+ "ey-m2": "assets/img/ey-m2.webp",
+ "ey-banner": "assets/img/ey-banner.webp",
+ "yt-thy": "assets/img/yt-thy.webp",
+ "yt-hep": "assets/img/yt-hep.webp",
+ "yt-eyeni": "assets/img/yt-eyeni.webp",
+ "yt-ekurye": "assets/img/yt-ekurye.webp",
+ "yt-hayat": "assets/img/yt-hayat.webp",
  "yt-miles": "assets/img/yt-miles.webp",
  "pc-thumb": "assets/img/pc-thumb.webp",
  "pc-gorsel": "assets/img/pc-gorsel.webp",
@@ -234,6 +251,61 @@ const VIDS = {
   "w": 1280,
   "h": 600
  },
+ "hs-g1": {
+  "u": "assets/video/hs-g1.mp4",
+  "w": 1200,
+  "h": 674
+ },
+ "hs-g2": {
+  "u": "assets/video/hs-g2.mp4",
+  "w": 1066,
+  "h": 600
+ },
+ "hp-g1": {
+  "u": "assets/video/hp-g1.mp4",
+  "w": 1000,
+  "h": 460
+ },
+ "hp-g2": {
+  "u": "assets/video/hp-g2.mp4",
+  "w": 1000,
+  "h": 460
+ },
+ "hp-g3": {
+  "u": "assets/video/hp-g3.mp4",
+  "w": 1000,
+  "h": 460
+ },
+ "ek-g1": {
+  "u": "assets/video/ek-g1.mp4",
+  "w": 888,
+  "h": 500
+ },
+ "ek-g2": {
+  "u": "assets/video/ek-g2.mp4",
+  "w": 888,
+  "h": 500
+ },
+ "ey-g1": {
+  "u": "assets/video/ey-g1.mp4",
+  "w": 800,
+  "h": 450
+ },
+ "ey-g2": {
+  "u": "assets/video/ey-g2.mp4",
+  "w": 800,
+  "h": 450
+ },
+ "th-g1": {
+  "u": "assets/video/th-g1.mp4",
+  "w": 1200,
+  "h": 312
+ },
+ "th-g2": {
+  "u": "assets/video/th-g2.mp4",
+  "w": 1400,
+  "h": 364
+ },
  "pc-color3": {
   "u": "assets/video/pc-color3.mp4",
   "w": 1280,
@@ -256,7 +328,7 @@ const VIDS = {
  }
 };
 
-const AR = {"c-maximum": 1.2785, "c-miles": 1.2785, "c-btc-identity": 1.2785, "c-thy": 1.2785, "c-hep": 1.2785, "c-hayat": 1.2785, "c-esra-kurye": 1.2785, "c-esra-yeni": 1.2785, "c-little": 1.2785, "barbie-1": 1.1917, "barbie-2": 1.1917, "barbie-3": 1.1917, "barbie-p1": 0.6859, "barbie-p2": 0.6859, "barbie-p3": 0.6859, "yt-us": 1.7771, "yt-asli": 1.7778, "yt-hisse2": 1.7771, "yt-kripto": 1.7771, "yt-tff": 1.7771, "yt-pizza": 1.7771, "yt-milli": 1.7771, "yhumb": 1.25, "lg-thumb": 1.25, "kr-thumb": 1.25, "hs-thumb": 1.2415, "sok-thumb": 1.25, "yt-sok1": 2.0036, "yt-sok2": 2.1695, "yt-detective": 1.7771, "milli-cover": 1.7766, "asli-thumb": 1.25, "hisse2-1": 1.7778, "hisse2-2": 1.7778, "hisse2-3": 1.7778, "hisse2-4": 1.7778, "asli-1": 1.7778, "asli-2": 1.7778, "asli-3": 1.7778, "asli-4": 1.9124, "fire-1": 1.9512, "fire-2": 1.875, "fire-3": 1.875, "fire-4": 1.7778, "ul-thumb": 1.25, "ul-01": 1.6151, "ul-02": 1.6151, "ul-03": 1.6151, "ul-04": 1.6151, "ul-05": 1.6151, "ul-06": 1.6151, "ul-07": 1.6151, "ul-08": 1.6151, "ul-09": 1.6151, "ul-10": 1.6151, "ul-11": 1.6151, "ul-12": 1.6151, "en-thumb": 1.25, "en-22": 1.7778, "en-kapak": 1.7778, "en-2024": 1.7778, "en-stake": 1.7778, "en-history": 1.7778, "en-highl": 1.7778, "en-fin": 1.7778, "en-toc": 1.7778, "en-palette": 1.7778, "en-type": 1.7778, "mx-m1": 1.5007, "mx-m2": 1.3333, "mx-m3": 1.3333, "mx-m4": 1.3333, "mx-m5": 1.7778, "mx-m6": 1.7778, "mx-m7": 0.6667, "mx-m8": 0.9401, "mx-m9": 0.7306, "mx-m10": 2.5135, "mx-m11": 2.0408, "kr-m2": 1.5007, "kr-m3": 1.3333, "kr-m4": 1.3333, "kr-m5": 1.3333, "kr-m6": 1.7778, "kr-hoard": 2.0408, "mi-yatay": 1.7766, "mi-dikey": 0.7199, "mi-billboard": 1.7778, "mi-inflight": 2.1341, "mi-bento": 1.0, "mi-afrika": 0.7201, "mi-asya": 0.7201, "mi-avrupa": 0.7201, "mi-avustralya": 0.7201, "mi-guney": 0.7201, "mi-kuzey": 0.7201, "ms-thumb": 1.2415, "sok-barbie-thumb": 1.2415, "mt-cover": 1.2415, "mt-kapak2": 1.7766, "mt-c1": 1.0, "mt-c2": 1.0, "mt-c3": 1.0, "yt-maldives": 1.7778, "sutas-thumb": 1.2415, "yt-sutas": 1.7778, "yt-miles": 1.7778, "pc-thumb": 1.5, "pc-gorsel": 1.5007, "pc-kv1": 1.7771, "pc-kv2": 1.7771, "pc-kv3": 1.7771, "pc-ab1": 1.7771, "pc-ab2": 1.7771, "pc-story": 0.5624, "pc-story1": 0.5624, "pc-case4": 1.7778, "pc-case5": 1.7778, "pc-case6": 1.7778, "pc-case7": 1.5209, "kk-dikey": 0.72, "kk-yatay": 1.7766, "kk-thumb": 1.3716, "lg-01": 1.0, "lg-02": 1.0, "lg-03": 1.0, "lg-04": 1.0, "lg-05": 1.0, "lg-06": 1.0, "lg-07": 1.0, "lg-08": 1.0, "lg-09": 1.0, "lg-10": 1.0, "lg-11": 1.0, "lg-12": 1.0, "lg-13": 1.0, "lg-14": 1.0, "mx-case": 1.7778, "mx-logo": 3.0332, "mx-2d": 1.0, "mx-3d": 1.0, "mx-layout": 1.7778, "mx-photo": 2.7468, "mx-color": 2.1333, "mx-font": 1.7778, "kr-intro": 2.397, "kr-logo": 3.8323, "kr-2d": 1.0, "kr-color": 2.3358, "kr-layouts": 1.7778, "kr-font": 2.56, "kr-phone": 1.0, "mi-sydney": 2.7397, "as-g1": 1.7778, "as-g2": 1.7778, "as-g3": 1.7778, "as-g4": 1.7778, "as-g5": 2.56, "pc-logo4": 2.1333, "pc-color3": 1.7778, "pc-font2": 1.7778, "pc-icons": 1.7778, "lg-assemble": 1.0};
+const AR = {"c-maximum": 1.2785, "c-miles": 1.2785, "c-btc-identity": 1.2785, "c-thy": 1.2785, "c-hep": 1.2785, "c-hayat": 1.2785, "c-esra-kurye": 1.2785, "c-esra-yeni": 1.2785, "c-little": 1.2785, "barbie-1": 1.1917, "barbie-2": 1.1917, "barbie-3": 1.1917, "barbie-p1": 0.6859, "barbie-p2": 0.6859, "barbie-p3": 0.6859, "yt-us": 1.7771, "yt-asli": 1.7778, "yt-hisse2": 1.7771, "yt-kripto": 1.7771, "yt-tff": 1.7771, "yt-pizza": 1.7771, "yt-milli": 1.7771, "yhumb": 1.25, "lg-thumb": 1.25, "kr-thumb": 1.25, "hs-thumb": 1.2415, "sok-thumb": 1.25, "yt-sok1": 2.0036, "yt-sok2": 2.1695, "yt-detective": 1.7771, "milli-cover": 1.7766, "asli-thumb": 1.25, "hisse2-1": 1.7778, "hisse2-2": 1.7778, "hisse2-3": 1.7778, "hisse2-4": 1.7778, "asli-1": 1.7778, "asli-2": 1.7778, "asli-3": 1.7778, "asli-4": 1.9124, "fire-1": 1.9512, "fire-2": 1.875, "fire-3": 1.875, "fire-4": 1.7778, "ul-thumb": 1.25, "ul-01": 1.6151, "ul-02": 1.6151, "ul-03": 1.6151, "ul-04": 1.6151, "ul-05": 1.6151, "ul-06": 1.6151, "ul-07": 1.6151, "ul-08": 1.6151, "ul-09": 1.6151, "ul-10": 1.6151, "ul-11": 1.6151, "ul-12": 1.6151, "en-thumb": 1.25, "en-22": 1.7778, "en-kapak": 1.7778, "en-2024": 1.7778, "en-stake": 1.7778, "en-history": 1.7778, "en-highl": 1.7778, "en-fin": 1.7778, "en-toc": 1.7778, "en-palette": 1.7778, "en-type": 1.7778, "mx-m1": 1.5007, "mx-m2": 1.3333, "mx-m3": 1.3333, "mx-m4": 1.3333, "mx-m5": 1.7778, "mx-m6": 1.7778, "mx-m7": 0.6667, "mx-m8": 0.9401, "mx-m9": 0.7306, "mx-m10": 2.5135, "mx-m11": 2.0408, "kr-m2": 1.5007, "kr-m3": 1.3333, "kr-m4": 1.3333, "kr-m5": 1.3333, "kr-m6": 1.7778, "kr-hoard": 2.0408, "mi-yatay": 1.7766, "mi-dikey": 0.7199, "mi-billboard": 1.7778, "mi-inflight": 2.1341, "mi-bento": 1.0, "mi-afrika": 0.7201, "mi-asya": 0.7201, "mi-avrupa": 0.7201, "mi-avustralya": 0.7201, "mi-guney": 0.7201, "mi-kuzey": 0.7201, "ms-thumb": 1.2415, "sok-barbie-thumb": 1.2415, "mt-cover": 1.2415, "mt-kapak2": 1.7766, "mt-c1": 1.0, "mt-c2": 1.0, "mt-c3": 1.0, "yt-maldives": 1.7778, "sutas-thumb": 1.2415, "yt-sutas": 1.7778, "hs-1": 1.7778, "hs-2": 1.3333, "hs-3": 1.7778, "hp-k1": 1.7316, "hp-k2": 1.7316, "hp-k3": 1.7316, "ek-banner": 4.7244, "ek-mock": 1.3333, "ey-1": 1.7778, "ey-m1": 1.3333, "ey-m2": 1.3333, "ey-banner": 4.7244, "yt-thy": 1.8182, "yt-hep": 1.7778, "yt-eyeni": 1.7778, "yt-ekurye": 1.7778, "yt-hayat": 1.6861, "yt-miles": 1.7778, "pc-thumb": 1.5, "pc-gorsel": 1.5007, "pc-kv1": 1.7771, "pc-kv2": 1.7771, "pc-kv3": 1.7771, "pc-ab1": 1.7771, "pc-ab2": 1.7771, "pc-story": 0.5624, "pc-story1": 0.5624, "pc-case4": 1.7778, "pc-case5": 1.7778, "pc-case6": 1.7778, "pc-case7": 1.5209, "kk-dikey": 0.72, "kk-yatay": 1.7766, "kk-thumb": 1.3716, "lg-01": 1.0, "lg-02": 1.0, "lg-03": 1.0, "lg-04": 1.0, "lg-05": 1.0, "lg-06": 1.0, "lg-07": 1.0, "lg-08": 1.0, "lg-09": 1.0, "lg-10": 1.0, "lg-11": 1.0, "lg-12": 1.0, "lg-13": 1.0, "lg-14": 1.0, "mx-case": 1.7778, "mx-logo": 3.0332, "mx-2d": 1.0, "mx-3d": 1.0, "mx-layout": 1.7778, "mx-photo": 2.7468, "mx-color": 2.1333, "mx-font": 1.7778, "kr-intro": 2.397, "kr-logo": 3.8323, "kr-2d": 1.0, "kr-color": 2.3358, "kr-layouts": 1.7778, "kr-font": 2.56, "kr-phone": 1.0, "mi-sydney": 2.7397, "as-g1": 1.7778, "as-g2": 1.7778, "as-g3": 1.7778, "as-g4": 1.7778, "as-g5": 2.56, "pc-logo4": 2.1333, "hs-g1": 1.7804, "hs-g2": 1.7767, "hp-g1": 2.1739, "hp-g2": 2.1739, "hp-g3": 2.1739, "ek-g1": 1.776, "ek-g2": 1.776, "ey-g1": 1.7778, "ey-g2": 1.7778, "th-g1": 3.8462, "th-g2": 3.8462, "pc-color3": 1.7778, "pc-font2": 1.7778, "pc-icons": 1.7778, "lg-assemble": 1.0};
 
 const PROJECTS = [
  {
@@ -947,7 +1019,8 @@ const PROJECTS = [
    }
   ],
   "awards": [],
-  "layout": "story"
+  "layout": "story",
+  "preview": "mi-sydney"
  },
  {
   "slug": "paycell-gaming-club",
@@ -1279,14 +1352,17 @@ const PROJECTS = [
  },
  {
   "slug": "turkish-airlines-a-new-thrill",
-  "layout": "split",
   "cover": "c-thy",
-  "pos": "50% 50%",
   "title": "Turkish Airlines / A New Thrill",
   "upper": "TURKISH AIRLINES / A NEW THRILL",
+  "client": "Turkish Airlines",
   "tagline": {
    "en": "Traveling with miles",
    "tr": "Millerle seyahat"
+  },
+  "heading": {
+   "en": "A new thrill in every moment of life",
+   "tr": "Hayatın her anında yeni bir heyecan"
   },
   "tags": {
    "en": [
@@ -1298,6 +1374,10 @@ const PROJECTS = [
     "Seyahat"
    ]
   },
+  "alt": "A dragon costume in a neon-lit street at night, with the line “A new thrill in every moment of life” across the frame",
+  "hero": [
+   "th-g1"
+  ],
   "desc": {
    "en": [
     "An ad film for Turkish Airlines about the advantages of earning miles.",
@@ -1337,19 +1417,37 @@ const PROJECTS = [
     "url": "https://www.behance.net/gallery/158694953/TURKISH-AIRLINES-A-NEW-THRILL"
    }
   ],
-  "alt": "A dragon costume in a neon-lit street at night, with the line “A new thrill in every moment of life” across the frame",
-  "awards": []
+  "blocks": [
+   {
+    "t": "player",
+    "id": "nHRFZvZUlsQ",
+    "thumb": "yt-thy",
+    "title": "A New Thrill Every Moment Of Life"
+   },
+   {
+    "t": "bleed",
+    "img": "th-g2"
+   }
+  ],
+  "awards": [],
+  "alts": {},
+  "layout": "story",
+  "preview": "th-g1"
  },
  {
   "slug": "hayat-sana-maximum",
-  "layout": "split",
   "cover": "hs-thumb",
   "pos": "50% 22%",
   "title": "Hayat Sana Maximum",
   "upper": "HAYAT SANA MAXIMUM",
+  "client": "İş Bankası — Maximum",
   "tagline": {
    "en": "Çağlar Çorumlu and Esra Bilgiç in the Maximum films",
    "tr": "Maximum filmlerinde Çağlar Çorumlu ve Esra Bilgiç"
+  },
+  "heading": {
+   "en": "Life is Maximum for you",
+   "tr": "Hayat sana Maximum"
   },
   "tags": {
    "en": [
@@ -1361,6 +1459,13 @@ const PROJECTS = [
     "Finans"
    ]
   },
+  "alt": "Six characters, including a singer, a pilot and a barista, stand under the pink Hayat Sana Maximum logo, with a woman in the center holding the Maximum card",
+  "alts": {
+   "hs-2": "Mockup: the campaign visual on a large screen in a dark hall"
+  },
+  "hero": [
+   "hs-g1"
+  ],
   "desc": {
    "en": [
     "“Hayat Sana Maximum” (“Life Is Maximum for You”) is a campaign for İş Bankası’s Maximum card. Its ad films star actors Çağlar Çorumlu and Esra Bilgiç.",
@@ -1400,23 +1505,53 @@ const PROJECTS = [
     "url": "https://www.behance.net/gallery/243455221/Hayat-Sana-Maximum"
    }
   ],
-  "alt": "Six characters, including a singer, a pilot and a barista, stand under the pink Hayat Sana Maximum logo, with a woman in the center holding the Maximum card",
   "awards": [
    {
     "k": "effie"
    }
-  ]
+  ],
+  "blocks": [
+   {
+    "t": "player",
+    "id": "1q6PGKH4p5E",
+    "thumb": "yt-hayat",
+    "title": "Maximum Kart’ınla Hayat Sana Maximum"
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "hs-g2",
+      "hs-3"
+     ]
+    ]
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "hs-1",
+      "hs-2"
+     ]
+    ]
+   }
+  ],
+  "layout": "story",
+  "preview": "hs-g1"
  },
  {
   "slug": "btcturk-hep-dahasi-var",
-  "layout": "split",
   "cover": "c-hep",
-  "pos": "50% 50%",
   "title": "BtcTurk / Hep Dahası Var",
   "upper": "BTCTURK / HEP DAHASI VAR",
+  "client": "BtcTurk",
   "tagline": {
    "en": "If we had been there, we would have done history’s firsts",
    "tr": "Biz o zamanda olsaydık, tarihteki ilkleri biz gerçekleştirirdik"
+  },
+  "heading": {
+   "en": "There’s always more",
+   "tr": "Hep dahası var"
   },
   "tags": {
    "en": [
@@ -1428,6 +1563,15 @@ const PROJECTS = [
     "Kripto"
    ]
   },
+  "alt": "A group in period costume gathered around a candlelit table of books and instruments in a stone hall",
+  "alts": {
+   "hp-k1": "Campaign visual from the Hep Dahası Var series",
+   "hp-k2": "Campaign visual from the Hep Dahası Var series",
+   "hp-k3": "Campaign visual from the Hep Dahası Var series"
+  },
+  "hero": [
+   "hp-g1"
+  ],
   "desc": {
    "en": [
     "BtcTurk was Türkiye’s first crypto exchange, so the campaign is built around history’s firsts. Its line, “Hep Dahası Var” (“There’s always more”), asks: if we had been there at the time, we would have been the ones to achieve that first.",
@@ -1467,8 +1611,38 @@ const PROJECTS = [
     "url": "https://www.behance.net/gallery/173208199/BtcTurk-Hep-Dahas-Var"
    }
   ],
-  "alt": "A group in period costume gathered around a candlelit table of books and instruments in a stone hall",
-  "awards": []
+  "blocks": [
+   {
+    "t": "player",
+    "id": "uOQyN1mGup4",
+    "thumb": "yt-hep",
+    "title": "BtcTurk’le #HepDahasıVar"
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "hp-g2",
+      "hp-g3"
+     ]
+    ]
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "hp-k1",
+      "hp-k2"
+     ],
+     [
+      "hp-k3"
+     ]
+    ]
+   }
+  ],
+  "awards": [],
+  "layout": "story",
+  "preview": "hp-g1"
  },
  {
   "slug": "fishers-of-the-maldives",
@@ -2016,14 +2190,18 @@ const PROJECTS = [
  },
  {
   "slug": "maximum-esra-kod-isteyen-kurye",
-  "layout": "split",
   "cover": "c-esra-kurye",
   "pos": "50% 35%",
   "title": "Maximum | Esra X Kod İsteyen Kurye",
   "upper": "MAXIMUM | ESRA X KOD İSTEYEN KURYE",
+  "client": "İş Bankası — Maximum",
   "tagline": {
    "en": "The courier who asks for the code in the most unexpected places",
    "tr": "Olmadık yerlerde kod isteyen kurye"
+  },
+  "heading": {
+   "en": "Esra and the courier who wants the code",
+   "tr": "Esra ve kod isteyen kurye"
   },
   "tags": {
    "en": [
@@ -2035,6 +2213,13 @@ const PROJECTS = [
     "Finans"
    ]
   },
+  "alt": "A smiling man with curly hair and glasses seen through a door peephole",
+  "alts": {
+   "ek-mock": "Mockup: the campaign visual on a billboard"
+  },
+  "hero": [
+   "ek-g1"
+  ],
   "desc": {
    "en": [
     "A humorous ad film in the Maximum campaign. Esra keeps running into a courier who asks for the code in the most unexpected places."
@@ -2072,19 +2257,45 @@ const PROJECTS = [
     "url": "https://www.behance.net/gallery/243532023/Maximum-Esra-X-Kod-steyen-Kurye"
    }
   ],
-  "alt": "A smiling man with curly hair and glasses seen through a door peephole",
-  "awards": []
+  "blocks": [
+   {
+    "t": "player",
+    "id": "6pSfT_enkLw",
+    "thumb": "yt-ekurye",
+    "title": "Esra X Kod İsteyen Kurye"
+   },
+   {
+    "t": "bleed",
+    "img": "ek-banner"
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "ek-g2",
+      "ek-mock"
+     ]
+    ]
+   }
+  ],
+  "awards": [],
+  "layout": "story",
+  "preview": "ek-g1"
  },
  {
   "slug": "maximum-esra-yeni-yil",
-  "layout": "split",
   "cover": "c-esra-yeni",
   "pos": "50% 30%",
   "title": "Maximum | Esra X Yeni Yılda Değişmek İsteyen Arkadaşı",
   "upper": "MAXIMUM | ESRA X YENİ YILDA DEĞİŞMEK İSTEYEN ARKADAŞI",
+  "client": "İş Bankası — Maximum",
   "tagline": {
    "en": "Renewing yourself in the new year with Maximum",
    "tr": "Yeni yılda kendini Maximum’la yenilemek"
+  },
+  "heading": {
+   "en": "Esra’s new year, with Maximum",
+   "tr": "Esra’nın yeni yılı, Maximum’la"
   },
   "tags": {
    "en": [
@@ -2096,6 +2307,14 @@ const PROJECTS = [
     "Finans"
    ]
   },
+  "alt": "A woman in a beret and glasses and a long-haired bearded man smiling in front of warm string lights",
+  "alts": {
+   "ey-m1": "Mockup: the campaign visual on a large screen in a dark hall",
+   "ey-m2": "Mockup: the campaign visual on a poster on a brick wall"
+  },
+  "hero": [
+   "ey-g1"
+  ],
   "desc": {
    "en": [
     "An ad film in the Maximum campaign. Esra tells how she will renew herself in the new year with Maximum’s campaigns."
@@ -2133,8 +2352,39 @@ const PROJECTS = [
     "url": "https://www.behance.net/gallery/243811637/Maximum-Esra-X-Yeni-Ylda-Degismek-steyen-Arkadas"
    }
   ],
-  "alt": "A woman in a beret and glasses and a long-haired bearded man smiling in front of warm string lights",
-  "awards": []
+  "blocks": [
+   {
+    "t": "player",
+    "id": "nniJXeYi20Y",
+    "thumb": "yt-eyeni",
+    "title": "Esra X Yeni Yılda Değişmek İsteyen Arkadaşı"
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "ey-g2",
+      "ey-1"
+     ]
+    ]
+   },
+   {
+    "t": "bleed",
+    "img": "ey-banner"
+   },
+   {
+    "t": "jgrid",
+    "rows": [
+     [
+      "ey-m1",
+      "ey-m2"
+     ]
+    ]
+   }
+  ],
+  "awards": [],
+  "layout": "story",
+  "preview": "ey-g1"
  },
  {
   "slug": "little-gestures",
