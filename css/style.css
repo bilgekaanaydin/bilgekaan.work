@@ -50,13 +50,13 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
 .theme svg{width:22px;height:16px;display:block}
 
 /* ---------- work: opening ---------- */
-.open{padding:clamp(56px,9vw,140px) var(--pad) 0}
+.open{padding:clamp(40px,6.4vw,100px) var(--pad) 0}
 .open h1{
   margin:0;max-width:15ch;
-  font-weight:450;font-stretch:125%;font-size:clamp(30px,6.6vw,112px);line-height:1.02;
+  font-weight:450;font-stretch:125%;font-size:clamp(28px,5.2vw,88px);line-height:1.02;
   letter-spacing:.005em;text-wrap:balance;
 }
-:root[lang="tr"] .open h1{max-width:19ch;font-size:clamp(26px,5.1vw,88px)}
+:root[lang="tr"] .open h1{max-width:19ch;font-size:clamp(24px,4.1vw,70px)}
 .open h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em}
 .open h1 .w>span{display:inline-block;transform:translateY(110%);animation:rise .95s cubic-bezier(.2,.7,.1,1) forwards;animation-delay:calc(var(--i) * 70ms + 120ms)}
 .open.still h1 .w>span{animation:none;transform:none}
@@ -288,4 +288,15 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
 }
 @media (prefers-reduced-motion:reduce){
   .open h1 .w>span{animation:none;transform:none}
+}
+@media (min-width:1180px){
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(40px,3.6vw,64px) var(--gap)}
+  .card .row{flex-direction:column;gap:6px;margin-top:12px}
+  .card .row h3{flex:none;font-size:13.5px}
+  .card .tags{text-align:left}
+  .card p{font-size:14px;max-width:none}
+  .card .badges{left:10px;right:10px;bottom:10px;gap:5px}
+  .card .award{height:30px;padding:0 9px;font-size:11px;gap:7px}
+  .card .award img{height:17px}
+  .card .chip{padding:4px 8px;font-size:10px}
 }
