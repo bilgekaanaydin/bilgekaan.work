@@ -90,6 +90,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
 .award.k{background:#003DFF}
 .award.f{background:#FF7000}
 .award.e{background:#DEA639;color:#000}
+.award.br{background:#9C612C}
+.award .al{letter-spacing:.08em}
 .award.big{height:48px;padding:0 16px;font-size:15px;gap:11px}
 .award.big img{height:28px}
 .card .row{display:flex;justify-content:space-between;align-items:baseline;gap:18px;margin-top:14px}
@@ -299,4 +301,12 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
   .card .award{height:30px;padding:0 9px;font-size:11px;gap:7px}
   .card .award img{height:17px}
   .card .chip{padding:4px 8px;font-size:10px}
+}
+@media (min-width:1100px){
+  :root{--mx:1120px}
+  .story .hero figure video{width:100%;max-height:min(60vh,calc((100vw - 2 * var(--pad)) / 2.35));object-fit:cover}
+  .story .hero figure:not(.fit) img{width:100%;max-height:min(62vh,calc((100vw - 2 * var(--pad)) / 2.1));object-fit:contain}
+  .story .b-one:not(.hero),.story .b-bleed:not(.hero),.story .b-pair:not(.hero),.story .b-trio,.story .b-stagger,.story .b-offset,.story .b-asym,.story .b-bands,.story .b-mosaic,.story .b-jgrid,.story .b-player{max-width:var(--mx);margin-left:auto;margin-right:auto}
+  .story .b-player{max-width:960px}
+  .story .b-one:not(.hero) figure img,.story .b-one:not(.hero) figure video{width:100%;max-height:min(70vh,640px);object-fit:contain}
 }

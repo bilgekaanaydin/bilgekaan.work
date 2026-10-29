@@ -1361,8 +1361,8 @@ const PROJECTS = [
    "tr": "Millerle seyahat"
   },
   "heading": {
-   "en": "A new thrill in every moment of life",
-   "tr": "Hayatın her anında yeni bir heyecan"
+   "en": "A new thrill in every moment of life, with Miles&Smiles",
+   "tr": "Hayatta her an Miles&Smiles ile yeni bir heyecan"
   },
   "tags": {
    "en": [
@@ -1374,6 +1374,16 @@ const PROJECTS = [
     "Seyahat"
    ]
   },
+  "awards": [
+   {
+    "k": "kristal",
+    "n": 1
+   },
+   {
+    "k": "bronz",
+    "n": 1
+   }
+  ],
   "alt": "A dragon costume in a neon-lit street at night, with the line “A new thrill in every moment of life” across the frame",
   "hero": [
    "th-g1"
@@ -1381,11 +1391,13 @@ const PROJECTS = [
   "desc": {
    "en": [
     "An ad film for Turkish Airlines about the advantages of earning miles.",
-    "It follows a man who touches the ampersand and travels with miles."
+    "It follows a man who touches the ampersand and travels with miles.",
+    "The campaign won 1 Kristal Elma and 1 Bronz Elma award."
    ],
    "tr": [
     "Turkish Airlines için, mil kazanmanın avantajlarını anlatan bir reklam filmi.",
-    "Ampersanta dokunup millerle seyahat eden bir adamı anlatıyor."
+    "Ampersanta dokunup millerle seyahat eden bir adamı anlatıyor.",
+    "Kampanya 1 Kristal Elma ve 1 Bronz Elma ödülü kazandı."
    ]
   },
   "meta": [
@@ -1429,7 +1441,6 @@ const PROJECTS = [
     "img": "th-g2"
    }
   ],
-  "awards": [],
   "alts": {},
   "layout": "story",
   "preview": "th-g1"

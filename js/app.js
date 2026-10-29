@@ -215,6 +215,7 @@ function awardHTML(a, big) {
   const b = big ? ' big' : '';
   if (a.k === 'kristal') return `<span class="award k${b}" title="Kristal Elma"><span>${a.n}×</span><img src="${IMGS['logo-kristal']}" alt="Kristal Elma"></span>`;
   if (a.k === 'felis') return `<span class="award f${b}" title="Felis"><span>${a.n}×</span><img src="${IMGS['logo-felis']}" alt="Felis"></span>`;
+  if (a.k === 'bronz') return `<span class="award br${b}" title="Bronz Elma"><span>${a.n}×</span><span class="al">BRONZ ELMA</span></span>`;
   return `<span class="award e${b}" title="Effie"><img src="${IMGS['logo-effie']}" alt="Effie"></span>`;
 }
 
@@ -317,8 +318,8 @@ function storyView(p) {
     : `<figure>${mediaHTML(k, alt(k)).replace('loading="lazy"', 'loading="eager"')}</figure>`;
   const hero = !p.hero || !p.hero.length ? ''
     : p.hero.length === 1
-    ? `<div class="${p.heroBleed ? 'b-bleed' : 'b-one'}">${fig(p.hero[0])}</div>`
-    : `<div class="b-pair">${p.hero.map(fig).join('')}</div>`;
+    ? `<div class="${p.heroBleed ? 'b-bleed' : 'b-one'} hero">${fig(p.hero[0])}</div>`
+    : `<div class="b-pair hero">${p.hero.map(fig).join('')}</div>`;
   const meta = metaItems(p).map(m => `<div><dt>${m[0]}</dt><dd>${m[1]}</dd></div>`).join('');
   const aw = (p.awards || []).length ? `<div><dt>${esc(U(t('recognition')))}</dt><dd>${p.awards.map(a => awardHTML(a, true)).join('')}</dd></div>` : '';
   const ai = p.ai ? `<div><dt>${esc(U(t('production')))}</dt><dd><span class="chip">${esc(U(t('ai')))}</span></dd></div>` : '';
@@ -362,6 +363,7 @@ function aboutView() {
         <div class="rec">
           <div>${awardHTML({k:'kristal',n:2}, true)}${awardHTML({k:'felis',n:3}, true)}<a href="#barbie-sokta">Barbie Şok’ta</a></div>
           <div>${awardHTML({k:'effie'}, true)}<a href="#hayat-sana-maximum">Hayat Sana Maximum</a></div>
+          <div>${awardHTML({k:'kristal',n:1}, true)}${awardHTML({k:'bronz',n:1}, true)}<a href="#turkish-airlines-a-new-thrill">Turkish Airlines / A New Thrill</a></div>
         </div>
         <h2>${esc(U(t('education')))}</h2>
         <div><p>${esc(t('eduText'))}</p></div>
