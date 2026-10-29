@@ -307,6 +307,7 @@ function blockHTML(p, b) {
     case 'text': return `<div class="b-text"><h3>${esc(U(tx(b.label)))}</h3><div>${tx(b.body).map(x => `<p>${esc(x)}</p>`).join('')}</div></div>`;
     case 'split': return `<div class="b b-split"><figure>${mediaHTML(b.img, alt(b.img))}</figure>
       <div class="side"><h3>${esc(U(tx(b.label)))}</h3>${tx(b.body).map(x => `<p>${esc(x)}</p>`).join('')}</div></div>`;
+    case 'vplayer': { const v = VIDS[b.video]; return `<div class="b b-vplayer"><video controls playsinline preload="none" poster="${IMGS[b.poster]}" src="${v.u}" aria-label="${esc(b.title || '')}" style="aspect-ratio:${v.w} / ${v.h}"></video></div>`; }
     case 'player': return `<div class="b b-player"><button class="play" type="button" data-prov="${b.prov || 'yt'}" data-id="${b.id}" aria-label="${esc(t('playIn'))}: ${esc(b.title)}"><img src="${IMGS[b.thumb]}" alt="" loading="lazy" decoding="async"><span class="tri" aria-hidden="true"></span></button></div>`;
     case 'film': return `<div class="b b-film ${b.flip ? 'flip' : ''}">
       <button class="play" type="button" data-prov="${b.prov || 'yt'}" data-id="${b.id}" aria-label="${esc(t('playIn'))}: ${esc(b.title)}"><img src="${IMGS[b.thumb]}" alt="" loading="lazy" decoding="async"><span class="tri" aria-hidden="true"></span></button>

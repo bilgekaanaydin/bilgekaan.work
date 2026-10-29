@@ -117,7 +117,7 @@ const IMGS = {
  "yt-eyeni": "assets/img/yt-eyeni.webp",
  "yt-ekurye": "assets/img/yt-ekurye.webp",
  "yt-hayat": "assets/img/yt-hayat.webp",
- "yt-miles": "assets/img/yt-miles.webp",
+ "mi-poster": "assets/img/mi-poster.webp",
  "pc-thumb": "assets/img/pc-thumb.webp",
  "pc-gorsel": "assets/img/pc-gorsel.webp",
  "pc-kv1": "assets/img/pc-kv1.webp",
@@ -216,11 +216,6 @@ const VIDS = {
   "w": 720,
   "h": 720
  },
- "mi-sydney": {
-  "u": "assets/video/mi-sydney.mp4",
-  "w": 1200,
-  "h": 438
- },
  "as-g1": {
   "u": "assets/video/as-g1.mp4",
   "w": 1280,
@@ -250,6 +245,16 @@ const VIDS = {
   "u": "assets/video/pc-logo4.mp4",
   "w": 1280,
   "h": 600
+ },
+ "mi-loop": {
+  "u": "assets/video/mi-loop.mp4",
+  "w": 1600,
+  "h": 666
+ },
+ "mi-film": {
+  "u": "assets/video/mi-film.mp4",
+  "w": 1920,
+  "h": 1080
  },
  "hs-g1": {
   "u": "assets/video/hs-g1.mp4",
@@ -328,7 +333,7 @@ const VIDS = {
  }
 };
 
-const AR = {"c-maximum": 1.2785, "c-miles": 1.2785, "c-btc-identity": 1.2785, "c-thy": 1.2785, "c-hep": 1.2785, "c-hayat": 1.2785, "c-esra-kurye": 1.2785, "c-esra-yeni": 1.2785, "c-little": 1.2785, "barbie-1": 1.1917, "barbie-2": 1.1917, "barbie-3": 1.1917, "barbie-p1": 0.6859, "barbie-p2": 0.6859, "barbie-p3": 0.6859, "yt-us": 1.7771, "yt-asli": 1.7778, "yt-hisse2": 1.7771, "yt-kripto": 1.7771, "yt-tff": 1.7771, "yt-pizza": 1.7771, "yt-milli": 1.7771, "yhumb": 1.25, "lg-thumb": 1.25, "kr-thumb": 1.25, "hs-thumb": 1.2415, "sok-thumb": 1.25, "yt-sok1": 2.0036, "yt-sok2": 2.1695, "yt-detective": 1.7771, "milli-cover": 1.7766, "asli-thumb": 1.25, "hisse2-1": 1.7778, "hisse2-2": 1.7778, "hisse2-3": 1.7778, "hisse2-4": 1.7778, "asli-1": 1.7778, "asli-2": 1.7778, "asli-3": 1.7778, "asli-4": 1.9124, "fire-1": 1.9512, "fire-2": 1.875, "fire-3": 1.875, "fire-4": 1.7778, "ul-thumb": 1.25, "ul-01": 1.6151, "ul-02": 1.6151, "ul-03": 1.6151, "ul-04": 1.6151, "ul-05": 1.6151, "ul-06": 1.6151, "ul-07": 1.6151, "ul-08": 1.6151, "ul-09": 1.6151, "ul-10": 1.6151, "ul-11": 1.6151, "ul-12": 1.6151, "en-thumb": 1.25, "en-22": 1.7778, "en-kapak": 1.7778, "en-2024": 1.7778, "en-stake": 1.7778, "en-history": 1.7778, "en-highl": 1.7778, "en-fin": 1.7778, "en-toc": 1.7778, "en-palette": 1.7778, "en-type": 1.7778, "mx-m1": 1.5007, "mx-m2": 1.3333, "mx-m3": 1.3333, "mx-m4": 1.3333, "mx-m5": 1.7778, "mx-m6": 1.7778, "mx-m7": 0.6667, "mx-m8": 0.9401, "mx-m9": 0.7306, "mx-m10": 2.5135, "mx-m11": 2.0408, "kr-m2": 1.5007, "kr-m3": 1.3333, "kr-m4": 1.3333, "kr-m5": 1.3333, "kr-m6": 1.7778, "kr-hoard": 2.0408, "mi-yatay": 1.7766, "mi-dikey": 0.7199, "mi-billboard": 1.7778, "mi-inflight": 2.1341, "mi-bento": 1.0, "mi-afrika": 0.7201, "mi-asya": 0.7201, "mi-avrupa": 0.7201, "mi-avustralya": 0.7201, "mi-guney": 0.7201, "mi-kuzey": 0.7201, "ms-thumb": 1.2415, "sok-barbie-thumb": 1.2415, "mt-cover": 1.2415, "mt-kapak2": 1.7766, "mt-c1": 1.0, "mt-c2": 1.0, "mt-c3": 1.0, "yt-maldives": 1.7778, "sutas-thumb": 1.2415, "yt-sutas": 1.7778, "hs-1": 1.7778, "hs-2": 1.3333, "hs-3": 1.7778, "hp-k1": 1.7316, "hp-k2": 1.7316, "hp-k3": 1.7316, "ek-banner": 4.7244, "ek-mock": 1.3333, "ey-1": 1.7778, "ey-m1": 1.3333, "ey-m2": 1.3333, "ey-banner": 4.7244, "yt-thy": 1.8182, "yt-hep": 1.7778, "yt-eyeni": 1.7778, "yt-ekurye": 1.7778, "yt-hayat": 1.6861, "yt-miles": 1.7778, "pc-thumb": 1.5, "pc-gorsel": 1.5007, "pc-kv1": 1.7771, "pc-kv2": 1.7771, "pc-kv3": 1.7771, "pc-ab1": 1.7771, "pc-ab2": 1.7771, "pc-story": 0.5624, "pc-story1": 0.5624, "pc-case4": 1.7778, "pc-case5": 1.7778, "pc-case6": 1.7778, "pc-case7": 1.5209, "kk-dikey": 0.72, "kk-yatay": 1.7766, "kk-thumb": 1.3716, "lg-01": 1.0, "lg-02": 1.0, "lg-03": 1.0, "lg-04": 1.0, "lg-05": 1.0, "lg-06": 1.0, "lg-07": 1.0, "lg-08": 1.0, "lg-09": 1.0, "lg-10": 1.0, "lg-11": 1.0, "lg-12": 1.0, "lg-13": 1.0, "lg-14": 1.0, "mx-case": 1.7778, "mx-logo": 3.0332, "mx-2d": 1.0, "mx-3d": 1.0, "mx-layout": 1.7778, "mx-photo": 2.7468, "mx-color": 2.1333, "mx-font": 1.7778, "kr-intro": 2.397, "kr-logo": 3.8323, "kr-2d": 1.0, "kr-color": 2.3358, "kr-layouts": 1.7778, "kr-font": 2.56, "kr-phone": 1.0, "mi-sydney": 2.7397, "as-g1": 1.7778, "as-g2": 1.7778, "as-g3": 1.7778, "as-g4": 1.7778, "as-g5": 2.56, "pc-logo4": 2.1333, "hs-g1": 1.7804, "hs-g2": 1.7767, "hp-g1": 2.1739, "hp-g2": 2.1739, "hp-g3": 2.1739, "ek-g1": 1.776, "ek-g2": 1.776, "ey-g1": 1.7778, "ey-g2": 1.7778, "th-g1": 3.8462, "th-g2": 3.8462, "pc-color3": 1.7778, "pc-font2": 1.7778, "pc-icons": 1.7778, "lg-assemble": 1.0};
+const AR = {"c-maximum": 1.2785, "c-miles": 1.2785, "c-btc-identity": 1.2785, "c-thy": 1.2785, "c-hep": 1.2785, "c-hayat": 1.2785, "c-esra-kurye": 1.2785, "c-esra-yeni": 1.2785, "c-little": 1.2785, "barbie-1": 1.1917, "barbie-2": 1.1917, "barbie-3": 1.1917, "barbie-p1": 0.6859, "barbie-p2": 0.6859, "barbie-p3": 0.6859, "yt-us": 1.7771, "yt-asli": 1.7778, "yt-hisse2": 1.7771, "yt-kripto": 1.7771, "yt-tff": 1.7771, "yt-pizza": 1.7771, "yt-milli": 1.7771, "yhumb": 1.25, "lg-thumb": 1.25, "kr-thumb": 1.25, "hs-thumb": 1.2415, "sok-thumb": 1.25, "yt-sok1": 2.0036, "yt-sok2": 2.1695, "yt-detective": 1.7771, "milli-cover": 1.7766, "asli-thumb": 1.25, "hisse2-1": 1.7778, "hisse2-2": 1.7778, "hisse2-3": 1.7778, "hisse2-4": 1.7778, "asli-1": 1.7778, "asli-2": 1.7778, "asli-3": 1.7778, "asli-4": 1.9124, "fire-1": 1.9512, "fire-2": 1.875, "fire-3": 1.875, "fire-4": 1.7778, "ul-thumb": 1.25, "ul-01": 1.6151, "ul-02": 1.6151, "ul-03": 1.6151, "ul-04": 1.6151, "ul-05": 1.6151, "ul-06": 1.6151, "ul-07": 1.6151, "ul-08": 1.6151, "ul-09": 1.6151, "ul-10": 1.6151, "ul-11": 1.6151, "ul-12": 1.6151, "en-thumb": 1.25, "en-22": 1.7778, "en-kapak": 1.7778, "en-2024": 1.7778, "en-stake": 1.7778, "en-history": 1.7778, "en-highl": 1.7778, "en-fin": 1.7778, "en-toc": 1.7778, "en-palette": 1.7778, "en-type": 1.7778, "mx-m1": 1.5007, "mx-m2": 1.3333, "mx-m3": 1.3333, "mx-m4": 1.3333, "mx-m5": 1.7778, "mx-m6": 1.7778, "mx-m7": 0.6667, "mx-m8": 0.9401, "mx-m9": 0.7306, "mx-m10": 2.5135, "mx-m11": 2.0408, "kr-m2": 1.5007, "kr-m3": 1.3333, "kr-m4": 1.3333, "kr-m5": 1.3333, "kr-m6": 1.7778, "kr-hoard": 2.0408, "mi-yatay": 1.7766, "mi-dikey": 0.7199, "mi-billboard": 1.7778, "mi-inflight": 2.1341, "mi-bento": 1.0, "mi-afrika": 0.7201, "mi-asya": 0.7201, "mi-avrupa": 0.7201, "mi-avustralya": 0.7201, "mi-guney": 0.7201, "mi-kuzey": 0.7201, "ms-thumb": 1.2415, "sok-barbie-thumb": 1.2415, "mt-cover": 1.2415, "mt-kapak2": 1.7766, "mt-c1": 1.0, "mt-c2": 1.0, "mt-c3": 1.0, "yt-maldives": 1.7778, "sutas-thumb": 1.2415, "yt-sutas": 1.7778, "hs-1": 1.7778, "hs-2": 1.3333, "hs-3": 1.7778, "hp-k1": 1.7316, "hp-k2": 1.7316, "hp-k3": 1.7316, "ek-banner": 4.7244, "ek-mock": 1.3333, "ey-1": 1.7778, "ey-m1": 1.3333, "ey-m2": 1.3333, "ey-banner": 4.7244, "yt-thy": 1.8182, "yt-hep": 1.7778, "yt-eyeni": 1.7778, "yt-ekurye": 1.7778, "yt-hayat": 1.6861, "mi-poster": 1.7778, "yt-miles": 1.7778, "pc-thumb": 1.5, "pc-gorsel": 1.5007, "pc-kv1": 1.7771, "pc-kv2": 1.7771, "pc-kv3": 1.7771, "pc-ab1": 1.7771, "pc-ab2": 1.7771, "pc-story": 0.5624, "pc-story1": 0.5624, "pc-case4": 1.7778, "pc-case5": 1.7778, "pc-case6": 1.7778, "pc-case7": 1.5209, "kk-dikey": 0.72, "kk-yatay": 1.7766, "kk-thumb": 1.3716, "lg-01": 1.0, "lg-02": 1.0, "lg-03": 1.0, "lg-04": 1.0, "lg-05": 1.0, "lg-06": 1.0, "lg-07": 1.0, "lg-08": 1.0, "lg-09": 1.0, "lg-10": 1.0, "lg-11": 1.0, "lg-12": 1.0, "lg-13": 1.0, "lg-14": 1.0, "mx-case": 1.7778, "mx-logo": 3.0332, "mx-2d": 1.0, "mx-3d": 1.0, "mx-layout": 1.7778, "mx-photo": 2.7468, "mx-color": 2.1333, "mx-font": 1.7778, "kr-intro": 2.397, "kr-logo": 3.8323, "kr-2d": 1.0, "kr-color": 2.3358, "kr-layouts": 1.7778, "kr-font": 2.56, "kr-phone": 1.0, "as-g1": 1.7778, "as-g2": 1.7778, "as-g3": 1.7778, "as-g4": 1.7778, "as-g5": 2.56, "pc-logo4": 2.1333, "mi-loop": 2.4024, "mi-film": 1.7778, "hs-g1": 1.7804, "hs-g2": 1.7767, "hp-g1": 2.1739, "hp-g2": 2.1739, "hp-g3": 2.1739, "ek-g1": 1.776, "ek-g2": 1.776, "ey-g1": 1.7778, "ey-g2": 1.7778, "th-g1": 3.8462, "th-g2": 3.8462, "pc-color3": 1.7778, "pc-font2": 1.7778, "pc-icons": 1.7778, "lg-assemble": 1.0};
 
 const PROJECTS = [
  {
@@ -913,10 +918,10 @@ const PROJECTS = [
    "mi-billboard": "Mockup: the key visual on a poster in a station hall",
    "mi-inflight": "Mockup: the key visual on a seat screen next to an airplane window",
    "mi-bento": "Mockups: the key visual on a street kiosk, a billboard and a city screen",
-   "mi-sydney": "An animation of the Sydney coral-reef ampersand with the Opera House"
+   "mi-loop": "An animation of the ampersand as a coin on each continent, from the pyramids to the Sydney Opera House"
   },
   "hero": [
-   "mi-yatay"
+   "mi-loop"
   ],
   "desc": {
    "en": [
@@ -959,10 +964,14 @@ const PROJECTS = [
   ],
   "blocks": [
    {
-    "t": "player",
-    "id": "LTOSVKGiW18",
-    "thumb": "yt-miles",
+    "t": "vplayer",
+    "video": "mi-film",
+    "poster": "mi-poster",
     "title": "Route: 6 Continents"
+   },
+   {
+    "t": "one",
+    "img": "mi-yatay"
    },
    {
     "t": "sec",
@@ -992,10 +1001,6 @@ const PROJECTS = [
     ]
    },
    {
-    "t": "bleed",
-    "img": "mi-sydney"
-   },
-   {
     "t": "jgrid",
     "rows": [
      [
@@ -1021,7 +1026,8 @@ const PROJECTS = [
   ],
   "awards": [],
   "layout": "story",
-  "preview": "mi-sydney"
+  "preview": "mi-loop",
+  "heroFull": true
  },
  {
   "slug": "paycell-gaming-club",

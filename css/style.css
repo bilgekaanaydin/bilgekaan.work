@@ -306,9 +306,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
   :root{--mx:1120px}
   .story .hero:not(.full) figure video{width:100%;max-height:min(60vh,calc((100vw - 2 * var(--pad)) / 2.35));object-fit:cover}
   .story .hero:not(.full) figure:not(.fit) img{width:100%;max-height:min(62vh,calc((100vw - 2 * var(--pad)) / 2.1));object-fit:contain}
-  .story .b-one:not(.hero),.story .b-bleed:not(.hero),.story .b-pair:not(.hero),.story .b-trio,.story .b-stagger,.story .b-offset,.story .b-asym,.story .b-bands,.story .b-mosaic,.story .b-jgrid,.story .b-player{max-width:var(--mx);margin-left:auto;margin-right:auto}
-  .story .b-player{max-width:960px}
-  .story .b-one:not(.hero) figure img,.story .b-one:not(.hero) figure video{width:100%;max-height:min(70vh,640px);object-fit:contain}
+  .story .b-player,.story .b-vplayer{max-width:960px;margin-left:auto;margin-right:auto}
 }
 .award{--aw:156px;width:var(--aw);justify-content:flex-start}
 .card .award{--aw:110px}
@@ -320,3 +318,4 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
 .chip.ai .g{background:#C3F84A;color:#070707}
 .chip.ai .bl{background:#136CFC;color:#fff}
 .c-meta .chip.ai{height:36px;font-size:12px}
+.b-vplayer video{display:block;width:100%;height:auto;background:#000}
