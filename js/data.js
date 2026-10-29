@@ -363,12 +363,12 @@ const PROJECTS = [
   "heroBleed": true,
   "desc": {
    "en": [
-    "Maximum is İş Bankası’s credit card brand, launched in 2001 and today one of Türkiye’s most widely used, with 11.5 million customers and more than 440,000 partner merchants. As the brand turns 25, this project makes the logo the center of the whole brand identity.",
-    "The idea is dynamism. The logo is rotated by 8.6°, which brings energy and movement to the brand, and the same tilt drives everything around it: 2D icons built from angled compositions, 3D icons in translucent, glass-like forms, and lifestyle photography with vivid color, wide-angle lenses and asymmetric framing. This is what a credit card looks like at its coolest."
+    "Maximum is İş Bankası’s credit card brand, launched in 2001 and today one of Türkiye’s most widely used, with 11.5 million customers and more than 440,000 partner merchants. For the brand’s 25th year, we made the logo the center of the whole brand identity.",
+    "The idea is dynamism. We rotated the logo by 8.6° to bring energy and movement to the brand, and the same tilt shapes everything around it. The 2D icons are built from angled compositions, the 3D icons are translucent and glass-like, and the lifestyle photography uses vivid color, wide-angle lenses and asymmetric framing. A credit card at its coolest."
    ],
    "tr": [
-    "Maximum, 2001’de hayata geçen ve bugün Türkiye’nin en yaygın kullanılan kredi kartı markalarından biri olan İş Bankası kartı; 11,5 milyon müşterisi ve 440 binden fazla üye iş yeri var. Markanın 25. yılında bu proje, logoyu tüm marka kimliğinin merkezine yerleştiriyor.",
-    "Fikir dinamizm. Logo 8,6° döndürülerek markaya enerji ve hareket katıyor; aynı eğim çevresindeki her şeyi yönlendiriyor: açılı kompozisyonlarla kurulan 2D ikonlar, yarı saydam, cam dokulu 3D ikonlar ve canlı renk, geniş açı lens ve asimetrik kadrajla çekilmiş yaşam tarzı fotoğrafları. Bir kredi kartının en havalı hâli."
+    "Maximum, İş Bankası’nın 2001’de hayata geçirdiği ve bugün Türkiye’nin en yaygın kullanılan kredi kartı markalarından biri olan kartı. 11,5 milyon müşterisi ve 440 binden fazla üye iş yeri var. Markanın 25. yılında logoyu tüm marka kimliğinin merkezine aldık.",
+    "Fikrimiz dinamizm. Logoyu 8,6° döndürerek markaya enerji ve hareket kattık. Aynı eğim çevresindeki her şeyi de şekillendiriyor. 2D ikonlar açılı kompozisyonlarla kuruldu, 3D ikonlar yarı saydam ve cam dokulu. Yaşam tarzı fotoğrafları canlı renk, geniş açı lens ve asimetrik kadrajla çekildi. Bir kredi kartının en havalı hâli."
    ]
   },
   "note": {
@@ -416,7 +416,7 @@ const PROJECTS = [
       "Launched by Türkiye İş Bankası in 2001, Maximum is one of Türkiye’s most widely used credit card brands, offering a rewards-based payment experience designed to make everyday spending more rewarding."
      ],
      "tr": [
-      "2001’de Türkiye İş Bankası tarafından hayata geçirilen Maximum, Türkiye’nin en yaygın kullanılan kredi kartı markalarından biri; günlük harcamayı daha ödüllendirici kılmak için tasarlanmış, puan odaklı bir ödeme deneyimi sunuyor."
+      "2001’de Türkiye İş Bankası tarafından hayata geçirilen Maximum, Türkiye’nin en yaygın kullanılan kredi kartı markalarından biri. Günlük harcamayı daha ödüllendirici hâle getiren, puan odaklı bir ödeme deneyimi sunuyor."
      ]
     },
     "stats": [
@@ -454,12 +454,12 @@ const PROJECTS = [
     },
     "body": {
      "en": [
-      "We’re turning the Maximum logo into more than just a brand signature — making it the central visual asset of our brand identity. By rotating the logo 8.6°, we create a distinctive visual language that brings energy, movement and dynamism to the brand.",
+      "We’re turning the Maximum logo into more than a brand signature. It becomes the central visual asset of our brand identity. By rotating the logo 8.6°, we create a distinctive visual language that brings energy, movement and dynamism to the brand.",
       "To complement this approach, we’ve refreshed our visual language across 2D and 3D icons, as well as photography, creating a more contemporary, cohesive and distinctive brand world."
      ],
      "tr": [
-      "Maximum logosunu yalnızca bir marka imzasından fazlasına dönüştürüyor, marka kimliğimizin merkezindeki görsel varlık hâline getiriyoruz. Logoyu 8,6° döndürerek markaya enerji, hareket ve dinamizm getiren ayırt edici bir görsel dil yaratıyoruz.",
-      "Bu yaklaşımı tamamlamak için 2D ve 3D ikonlar ile fotoğraflarda görsel dilimizi yeniledik; daha çağdaş, bütünlüklü ve ayırt edici bir marka dünyası kurduk."
+      "Maximum logosunu yalnızca bir marka imzası olmaktan çıkarıp marka kimliğimizin merkezindeki görsel varlık yapıyoruz. Logoyu 8,6° döndürerek markaya enerji, hareket ve dinamizm katan ayırt edici bir görsel dil yaratıyoruz.",
+      "Bu yaklaşımı tamamlamak için 2D ve 3D ikonlarda ve fotoğraflarda görsel dilimizi yeniledik. Böylece daha çağdaş, bütünlüklü ve ayırt edici bir marka dünyası kurduk."
      ]
     }
    },
@@ -486,7 +486,7 @@ const PROJECTS = [
       "Our 3D iconography focuses on translucent, glass-textured forms that emphasize light, depth and dimensionality."
      ],
      "tr": [
-      "2D ikonografimizde, düzenlenebilir çizgi ikonları alışılmış, düz bir yönelimde kullanmak yerine, Maximum logosundan ilham alan açılı kompozisyonlar kullanıyoruz; böylece daha dinamik ve enerjik bir görsel dil oluşuyor.",
+      "2D ikonografimizde düzenlenebilir çizgi ikonları alışılmış, düz bir yönelimde kullanmak yerine Maximum logosundan ilham alan açılı kompozisyonlar kullanıyoruz. Böylece daha dinamik ve enerjik bir görsel dil oluşuyor.",
       "3D ikonografimiz ise ışığı, derinliği ve boyutu öne çıkaran yarı saydam, cam dokulu formlara odaklanıyor."
      ]
     }
@@ -612,12 +612,12 @@ const PROJECTS = [
   ],
   "desc": {
    "en": [
-    "Barbie’s licensed products were on sale at Şok. To announce it, we made it look as if Barbie herself had been caught shopping there: “Barbie Şok’ta” (“Barbie at Şok”).",
-    "The idea is a celebrity “caught” in the aisles, the way paparazzi catch one. The campaign won 2 Kristal Elma and 3 Felis awards."
+    "Barbie’s licensed products were on sale at Şok. To announce it, we made it look as if Barbie herself had been caught shopping there. The campaign was called “Barbie Şok’ta” (“Barbie at Şok”).",
+    "Barbie shows up between the shelves like a celebrity caught by paparazzi. The campaign won 2 Kristal Elma and 3 Felis awards."
    ],
    "tr": [
-    "Barbie’nin lisanslı ürünleri Şok’ta satılıyordu. Bunu duyurmak için Barbie’nin Şok’ta alışveriş yaparken yakalanmış olduğunu gösterdik: “Barbie Şok’ta”.",
-    "Fikir, paparazzilerin yakaladığı bir ünlü gibi, reyonlar arasında “yakalanan” bir Barbie. Kampanya 2 Kristal Elma ve 3 Felis ödülü kazandı."
+    "Barbie’nin lisanslı ürünleri Şok’ta satılıyordu. Bunu duyurmak için Barbie’yi Şok’ta alışveriş yaparken yakalanmış gibi gösterdik ve kampanyaya “Barbie Şok’ta” adını verdik.",
+    "Barbie, paparazzilerin yakaladığı bir ünlü gibi reyonlar arasında karşımıza çıkıyor. Kampanya 2 Kristal Elma ve 3 Felis ödülü kazandı."
    ]
   },
   "meta": [
@@ -717,12 +717,12 @@ const PROJECTS = [
   "heroBleed": true,
   "desc": {
    "en": [
-    "A complete visual identity renewal for BtcTurk | Kripto, the first cryptocurrency exchange in Türkiye and the fourth ever established in the world. Launched in 2013, it now has more than 6 million users and over 190 crypto assets.",
-    "The project redesigns the visual language of this pioneering platform, which has a strong legacy and a global footprint, and writes a new visual guideline that reflects its innovative spirit and technological foundation. The system covers the logo, color, type, 2D iconography, phone-in-hand photography, motion and out-of-home."
+    "We renewed the whole visual identity of BtcTurk | Kripto, the first cryptocurrency exchange in Türkiye and the fourth ever established in the world. Launched in 2013, it now has more than 6 million users and over 190 crypto assets.",
+    "The project redesigns the visual language of this pioneering platform, with its long history and global reach. We also wrote a new visual guide that reflects its innovative spirit and technological foundation. The system covers the logo, color, type, 2D iconography, phone-in-hand photography, motion and out-of-home."
    ],
    "tr": [
-    "Türkiye’nin ilk, dünyanın ise dördüncü kripto para borsası olan BtcTurk | Kripto için eksiksiz bir görsel kimlik yenilemesi. 2013’te kurulan platformun bugün 6 milyondan fazla kullanıcısı ve 190’dan fazla kripto varlığı var.",
-    "Proje, köklü bir mirası ve küresel bir ayak izi olan bu öncü platformun görsel dilini yeniden tasarlıyor ve yenilikçi ruhunu ve teknolojik temelini yansıtan yeni bir görsel rehber yazıyor. Sistem logo, renk, tipografi, 2D ikonografi, telefon-elde fotoğrafları, hareket ve açık hava uygulamalarını kapsıyor."
+    "Türkiye’nin ilk, dünyanın dördüncü kripto para borsası olan BtcTurk | Kripto’nun görsel kimliğini baştan yeniledik. 2013’te kurulan platformun bugün 6 milyondan fazla kullanıcısı ve 190’dan fazla kripto varlığı var.",
+    "Proje, köklü geçmişi ve küresel erişimi olan bu öncü platformun görsel dilini baştan tasarlıyor. Yenilikçi ruhunu ve teknolojik temelini yansıtan yeni bir görsel rehber de yazdık. Sistem logo, renk, tipografi, 2D ikonografi, telefon-elde fotoğrafları, hareket ve açık hava uygulamalarını kapsıyor."
    ]
   },
   "note": {
@@ -770,7 +770,7 @@ const PROJECTS = [
       "Launched in 2013, BtcTurk | Kripto is Türkiye’s pioneering crypto exchange, offering a secure and easy-to-use trading experience designed to make crypto accessible to everyone."
      ],
      "tr": [
-      "2013’te kurulan BtcTurk | Kripto, Türkiye’nin öncü kripto borsası; herkesin kripto paraya erişebilmesi için tasarlanmış güvenli ve kullanımı kolay bir alım satım deneyimi sunuyor."
+      "2013’te kurulan BtcTurk | Kripto, Türkiye’nin öncü kripto borsası. Herkesin kripto paraya erişebilmesi için tasarlanmış, güvenli ve kullanımı kolay bir alım satım deneyimi sunuyor."
      ]
     },
     "stats": [
@@ -843,7 +843,7 @@ const PROJECTS = [
       "Each image shows a real app screen or a brand moment, framed with dramatic light and depth."
      ],
      "tr": [
-      "Telefon-elde fotoğraflarımız BtcTurk | Kripto deneyimini gerçek, insani anlara yerleştiriyor. Yumuşak, parlak ve bulanık arka planlar odağı koyu arayüzde tutarken; dokunmak, kaydırmak ve tutmak gibi doğal el hareketleri her ürün ekranını sezgisel ve ulaşılabilir hissettiriyor.",
+      "Telefon-elde fotoğraflarımız BtcTurk | Kripto deneyimini gerçek, insani anlara yerleştiriyor. Yumuşak, parlak ve bulanık arka planlar odağı koyu arayüzde tutuyor. Dokunmak, kaydırmak ve tutmak gibi doğal el hareketleri de her ürün ekranını sezgisel ve ulaşılabilir hissettiriyor.",
       "Her görsel, dramatik ışık ve derinlikle çerçevelenmiş gerçek bir uygulama ekranını ya da marka anını gösteriyor."
      ]
     }
@@ -923,7 +923,7 @@ const PROJECTS = [
     "The brand’s ampersand was designed for each continent, in harmony with the landmarks of that place."
    ],
    "tr": [
-    "Miles&Smiles, Turkish Airlines’ sık uçan yolcu programı. “The Route: 6 Continents”, üyeleri Turkish Airlines ile altı kıtaya uçmaya ve bir milyon mil kazanmaya davet ediyor.",
+    "Miles&Smiles, Turkish Airlines’ın sık uçan yolcu programı. “The Route: 6 Continents”, üyeleri Turkish Airlines ile altı kıtaya uçmaya ve bir milyon mil kazanmaya davet ediyor.",
     "Markanın & işareti her kıta için, o yerin simgeleriyle uyumlu olacak şekilde tasarlandı."
    ]
   },
@@ -972,11 +972,11 @@ const PROJECTS = [
     "body": {
      "en": [
       "For each continent, the ampersand takes on the character of that place, in harmony with its landmarks.",
-      "Together they draw the route: fly to six continents with Turkish Airlines and earn one million miles."
+      "Together they draw the route. Fly to six continents with Turkish Airlines and earn one million miles."
      ],
      "tr": [
       "Her kıtada & işareti, o yerin simgeleriyle uyumlu olacak şekilde kıtaya özel bir tasarıma dönüşüyor.",
-      "Hepsi birlikte rotayı çiziyor: Turkish Airlines ile altı kıtaya uç ve bir milyon mil kazan."
+      "Hepsi birlikte rotayı çiziyor. Turkish Airlines ile altı kıtaya uç, bir milyon mil kazan."
      ]
     }
    },
@@ -1060,12 +1060,12 @@ const PROJECTS = [
   "heroBleed": true,
   "desc": {
    "en": [
-    "The branding Paycell will use in its gaming campaigns. Paycell Gaming Club’s promise reads: “With Paycell Gaming Club, you’re always a winner! Join Paycell Gaming Club: play to earn, earn to play.”",
+    "The branding Paycell will use in its gaming campaigns. Its promise is “With Paycell Gaming Club, you’re always a winner!”",
     "The identity covers the logo, colors, typography, icons and key visuals."
    ],
    "tr": [
-    "Paycell’in gaming alanındaki kampanyalarında kullanacağı markalama. Paycell Gaming Club’ın vaadi şu: “With Paycell Gaming Club, you’re always a winner! Join Paycell Gaming Club: play to earn, earn to play.”",
-    "Kimlik; logo, renkler, tipografi, ikonlar ve ana görselleri kapsıyor."
+    "Paycell’in gaming alanındaki kampanyalarında kullanacağı markalama. Marka, “With Paycell Gaming Club, you’re always a winner!” diyerek her oyuncunun kazanacağını vaat ediyor.",
+    "Kimlik logo, renkler, tipografi, ikonlar ve ana görselleri kapsıyor."
    ]
   },
   "meta": [
@@ -1177,11 +1177,11 @@ const PROJECTS = [
   ],
   "desc": {
    "en": [
-    "The launch catalog for the ULTRAND T08, a pickup truck distributed in Türkiye. It opens with the line “Hayatın Seyri Ultra, İşin Sırrı ULTRAND,” then moves page by page through what the truck does: it climbs, hauls, protects and connects.",
+    "The launch catalog for the ULTRAND T08, a pickup truck distributed in Türkiye. It opens with the line “Hayatın Seyri Ultra, İşin Sırrı ULTRAND” and goes page by page through what the truck does. It climbs, hauls, protects and connects.",
     "It also presents the five paint options of the T08."
    ],
    "tr": [
-    "Türkiye’de dağıtılan ULTRAND T08 pick-up için lansman kataloğu. “Hayatın Seyri Ultra, İşin Sırrı ULTRAND” cümlesiyle açılıyor, sonra sayfa sayfa aracın ne yaptığını anlatıyor: tırmanıyor, yük taşıyor, koruyor ve bağlıyor.",
+    "Türkiye’de dağıtılan ULTRAND T08 pick-up için hazırlanan lansman kataloğu. “Hayatın Seyri Ultra, İşin Sırrı ULTRAND” cümlesiyle açılıyor ve sayfa sayfa aracın neler yaptığını anlatıyor. Araç tırmanıyor, yük taşıyor, koruyor ve bağlıyor.",
     "Ayrıca T08’in beş boya seçeneğini tanıtıyor."
    ]
   },
@@ -1288,12 +1288,12 @@ const PROJECTS = [
   ],
   "desc": {
    "en": [
-    "A visual world for Enpara’s 2025 annual report, built to read like a product launch and not like a financial document, around the brand line “Dijital bankacılığın sade hali.”",
+    "A visual world for Enpara’s 2025 annual report. It reads more like a product launch than a financial document and is built around the brand line “Dijital bankacılığın sade hali.”",
     "Inside, the system covers section openers with phone mockups, a timeline, highlight tiles, data panels, a table of contents and a plain white layout for the financial pages. The last two pages document the color palette and the type, set in Neue Haas Grotesk Display Pro."
    ],
    "tr": [
-    "Enpara’nın 2025 faaliyet raporu için, finansal bir belgeden çok bir ürün lansmanı gibi okunacak şekilde, “Dijital bankacılığın sade hali.” cümlesi etrafında kurulmuş bir görsel dünya.",
-    "İçeride sistem; telefon mockup’lı bölüm açılışlarını, zaman çizelgesini, öne çıkanlar kartlarını, veri panellerini, içindekiler sayfasını ve finansal sayfalar için sade beyaz bir yerleşimi kapsıyor. Son iki sayfa renk paletini ve Neue Haas Grotesk Display Pro ile kurulan tipografiyi belgeliyor."
+    "Enpara’nın 2025 faaliyet raporu için bir görsel dünya kurduk. Rapor, finansal bir belgeden çok bir ürün lansmanı gibi okunuyor ve “Dijital bankacılığın sade hali.” cümlesinin etrafında şekilleniyor.",
+    "Sistem telefon mockup’lı bölüm açılışlarını, zaman çizelgesini, öne çıkanlar kartlarını, veri panellerini, içindekiler sayfasını ve finansal sayfalar için sade beyaz bir yerleşimi kapsıyor. Son iki sayfa renk paletini ve Neue Haas Grotesk Display Pro ile kurulan tipografiyi gösteriyor."
    ]
   },
   "meta": [
@@ -1585,11 +1585,11 @@ const PROJECTS = [
   ],
   "desc": {
    "en": [
-    "BtcTurk was Türkiye’s first crypto exchange, so the campaign is built around history’s firsts. Its line, “Hep Dahası Var” (“There’s always more”), asks: if we had been there at the time, we would have been the ones to achieve that first.",
-    "The campaign came in BtcTurk’s 10th year, as a hint of what the next ten years would bring."
+    "BtcTurk was Türkiye’s first crypto exchange, so the campaign is built around history’s firsts. Its line, “Hep Dahası Var” (“There’s always more”), says that if we had been there at the time, we would have achieved that first.",
+    "It launched in BtcTurk’s 10th year as a hint of what the next ten years would bring."
    ],
    "tr": [
-    "BtcTurk Türkiye’nin ilk kripto borsası olduğu için kampanya, tarihteki ilkleri konu alıyor. “Hep Dahası Var” cümlesi şunu söylüyor: o zamanda olsaydık, o ilki biz gerçekleştirirdik.",
+    "BtcTurk Türkiye’nin ilk kripto borsası olduğu için kampanya tarihteki ilkleri anlatıyor. “Hep Dahası Var” cümlesi, o zamanda olsaydık o ilki biz gerçekleştirirdik diyor.",
     "Kampanya BtcTurk’ün 10. yılında, önümüzdeki on yılda yapacaklarımıza dair bir ipucu olarak yayınlandı."
    ]
   },
@@ -1696,8 +1696,8 @@ const PROJECTS = [
     "Turkish Cargo then carries the catch to the world. Fish caught at dawn are processed by noon, flown out in the afternoon and kept in a temperature-controlled center in Istanbul that evening, at 2–8 °C and never frozen, so they reach kitchens around the world within 24 hours. The campaign signs off with “Carry the world. Care for the world.”"
    ],
    "tr": [
-    "Turkish Cargo için, Maldivli balıkçıları anlatan bir film ve bir advertorial karusel. Balıkçılar, ton balığını nesilden nesile aktarılan “pole and line” yöntemiyle tek tek yakalıyor; bu yöntem istenmeyen avı önlüyor, kaplumbağaları, köpek balıklarını, mercan resiflerini ve ekosistemi koruyor.",
-    "Turkish Cargo ise avı dünyaya taşıyor. Sabaha karşı tutulan balıklar öğlene kadar işleniyor, öğleden sonra uçağa yükleniyor ve akşam İstanbul’da sıcaklık kontrollü bir merkezde, 2–8 °C’de ve hiç dondurulmadan muhafaza ediliyor; böylece 24 saat içinde dünyanın dört bir yanındaki mutfaklara ulaşıyor. Kampanya “Carry the world. Care for the world.” cümlesiyle imzalanıyor."
+    "Turkish Cargo için, Maldivli balıkçıları anlatan bir film ve bir advertorial karusel. Balıkçılar ton balığını nesilden nesile aktarılan “pole and line” yöntemiyle tek tek yakalıyor. Bu yöntem istenmeyen avı önlüyor, kaplumbağaları, köpek balıklarını, mercan resiflerini ve ekosistemi koruyor.",
+    "Turkish Cargo ise avı dünyaya taşıyor. Sabaha karşı tutulan balıklar öğlene kadar işleniyor, öğleden sonra uçağa yükleniyor ve akşam İstanbul’da sıcaklık kontrollü bir merkezde, 2–8 °C’de ve hiç dondurulmadan muhafaza ediliyor. Böylece 24 saat içinde dünyanın dört bir yanındaki mutfaklara ulaşıyor. Kampanya “Carry the world. Care for the world.” cümlesiyle imzalanıyor."
    ]
   },
   "meta": [
@@ -1737,10 +1737,10 @@ const PROJECTS = [
     },
     "body": {
      "en": [
-      "A three-slide carousel tells the story in Turkish: the fishers racing against time every day, and Turkish Cargo carrying their catch from the Maldives to the world."
+      "A three-slide carousel tells the story in Turkish. It follows the fishers racing against time every day and Turkish Cargo carrying their catch from the Maldives to the world."
      ],
      "tr": [
-      "Üç slaytlık bir karusel hikâyeyi Türkçe anlatıyor: her gün zamanla yarışan balıkçılar ve avlarını Maldivler’den dünyaya taşıyan Turkish Cargo."
+      "Üç slaytlık karusel, her gün zamanla yarışan balıkçıları ve avlarını Maldivler’den dünyaya taşıyan Turkish Cargo’yu Türkçe anlatıyor."
      ]
     }
    },
@@ -1844,8 +1844,8 @@ const PROJECTS = [
   "upper": "ŞOK FİLMLERİ",
   "client": "Şok",
   "tagline": {
-   "en": "Two films: no fees, same shelf prices",
-   "tr": "İki film: bedel yok, mağaza fiyatı aynı"
+   "en": "No fees, same shelf prices",
+   "tr": "Bedel yok, mağaza fiyatı aynı"
   },
   "heading": {
    "en": "Two films about paying too much",
@@ -1870,12 +1870,12 @@ const PROJECTS = [
   "hero": [],
   "desc": {
    "en": [
-    "Two ad films for Cepte ŞOK, Şok’s shopping app. Their slogan, “Bedel Ödemeyin!” (“Don’t pay the price!”), carries the message: orders placed in the app arrive free of charge at the same low prices as in the store.",
-    "Humor does the selling: other apps charge more than their stores and add delivery fees, and Cepte ŞOK does not. The campaign also reminds viewers of the app’s refreshed interface, its faster operations and cash on delivery."
+    "Two ad films for Cepte ŞOK, Şok’s shopping app. Their slogan, “Bedel Ödemeyin!” (“Don’t pay the price!”), says that orders placed in the app arrive free of charge at the same low prices as in the store.",
+    "The films use humor. Other apps charge more than their stores and add delivery fees, and Cepte ŞOK does not. The campaign also reminds viewers of the app’s refreshed interface, its faster operations and cash on delivery."
    ],
    "tr": [
-    "Şok’un alışveriş uygulaması Cepte ŞOK için hazırlanan iki reklam filmi. Sloganları “Bedel Ödemeyin!”, uygulamadan verilen siparişlerin mağazadaki aynı uygun fiyatlarla ücretsiz teslim edildiği mesajını taşıyor.",
-    "Satışı mizah yapıyor: rakip uygulamalar mağazadan pahalı satıp teslimat ücreti alıyor, Cepte ŞOK almıyor. Kampanya ayrıca uygulamanın yenilenen arayüzünü, hızlanan operasyonunu ve kapıda ödeme kolaylığını hatırlatıyor."
+    "Şok’un alışveriş uygulaması Cepte ŞOK için hazırlanan iki reklam filmi. Sloganları “Bedel Ödemeyin!”, uygulamadan verilen siparişlerin mağazadaki aynı uygun fiyatlarla ve ücretsiz teslim edildiğini söylüyor.",
+    "Filmlerde mizah kullanılıyor. Rakip uygulamalar mağazadan pahalı satıp teslimat ücreti alıyor, Cepte ŞOK almıyor. Kampanya ayrıca uygulamanın yenilenen arayüzünü, hızlanan operasyonunu ve kapıda ödeme kolaylığını hatırlatıyor."
    ]
   },
   "meta": [
@@ -1908,8 +1908,8 @@ const PROJECTS = [
     "thumb": "yt-sok1",
     "title": "Bedel Ödemeyin!",
     "text": {
-     "en": "The campaign’s main film: “Bedel Ödemeyin!” (“Don’t pay the price!”). Orders placed in the app arrive free of charge at the same prices as in the store.",
-     "tr": "Kampanyanın ana filmi: “Bedel Ödemeyin!” Uygulamadan verilen siparişler, mağazadaki aynı fiyatlarla ücretsiz teslim ediliyor."
+     "en": "The campaign’s main film, “Bedel Ödemeyin!” (“Don’t pay the price!”). Orders placed in the app arrive free of charge at the same prices as in the store.",
+     "tr": "Kampanyanın ana filmi “Bedel Ödemeyin!” Uygulamadan verilen siparişler mağazadaki aynı fiyatlarla ücretsiz teslim ediliyor."
     }
    },
    {
@@ -1919,8 +1919,8 @@ const PROJECTS = [
     "title": "Meğer Bize Boşuna Ne Bedeller Ödetmişler!",
     "flip": true,
     "text": {
-     "en": "“So they made us pay all those prices for nothing!” The second film carries the same “don’t pay the price” message.",
-     "tr": "“Meğer bize boşuna ne bedeller ödetmişler!” İkinci film aynı “bedel ödemeyin” mesajını taşıyor."
+     "en": "“So they made us pay all those prices for nothing!” The second film tells the same “don’t pay the price” story.",
+     "tr": "“Meğer bize boşuna ne bedeller ödetmişler!” İkinci film de aynı “bedel ödemeyin” fikrini anlatıyor."
     }
    },
    {
@@ -1972,10 +1972,10 @@ const PROJECTS = [
   "hero": [],
   "desc": {
    "en": [
-    "A set of ad films for BtcTurk | Hisse and BtcTurk | Kripto. Each one puts a single product message first: US stocks in the app, no more two-day wait for your money, buying Bitcoin easily, and keeping track of your Bitcoin transactions without playing detective."
+    "A set of ad films for BtcTurk | Hisse and BtcTurk | Kripto. Each film is about one thing, whether it is US stocks in the app, no more two-day wait for your money, buying Bitcoin easily or keeping track of your Bitcoin transactions without playing detective."
    ],
    "tr": [
-    "BtcTurk | Hisse ve BtcTurk | Kripto için hazırlanan bir reklam filmi seti. Her biri tek bir ürün mesajını öne çıkarıyor: uygulamada ABD hisseleri, paran için iki gün beklememek, kolayca Bitcoin almak ve Bitcoin işlemlerini dedektiflik yapmadan takip etmek."
+    "BtcTurk | Hisse ve BtcTurk | Kripto için hazırlanan bir reklam filmi seti. Her film tek bir konuya odaklanıyor. Kimi uygulamada ABD hisselerini, kimi paran için iki gün beklememeyi, kimi kolayca Bitcoin almayı, kimi de Bitcoin işlemlerini dedektiflik yapmadan takip etmeyi anlatıyor."
    ]
   },
   "meta": [
@@ -2020,8 +2020,8 @@ const PROJECTS = [
     "thumb": "yt-kripto",
     "title": "Kolayca Bitcoin ve Kriptopara Al, Sat!",
     "text": {
-     "en": "BtcTurk | Kripto’s Buy/Sell feature in one line: “Kolayca Bitcoin ve kriptopara Al, Sat.”",
-     "tr": "BtcTurk | Kripto’nun Al/Sat özelliği tek cümlede: “Kolayca Bitcoin ve kriptopara Al, Sat.”"
+     "en": "The film sums up BtcTurk | Kripto’s Buy/Sell feature in one line, “Kolayca Bitcoin ve kriptopara Al, Sat.”",
+     "tr": "Film, BtcTurk | Kripto’nun Al/Sat özelliğini tek cümleyle anlatıyor, “Kolayca Bitcoin ve kriptopara Al, Sat.”"
     }
    },
    {
@@ -2083,7 +2083,7 @@ const PROJECTS = [
     "It is a film for BtcTurk | Destek, BtcTurk’s 24/7 support team."
    ],
    "tr": [
-    "Hayatı hep birilerine yardım etmekle geçen Aslı’yı anlatan bir film. Yardım etmeye BtcTurk çatısı altında devam ediyor; bu yüzden film, yardım etmenin hem onun hem BtcTurk’ün doğasında olduğunu söylüyor.",
+    "Hayatı hep birilerine yardım etmekle geçen Aslı’yı anlatan bir film. Aslı yardım etmeye BtcTurk çatısı altında devam ediyor. Bu yüzden film, yardım etmenin hem onun hem de BtcTurk’ün doğasında olduğunu söylüyor.",
     "Film, BtcTurk’ün 7/24 çalışan destek ekibi BtcTurk | Destek için hazırlandı."
    ]
   },
@@ -2431,7 +2431,7 @@ const PROJECTS = [
     "The animation shows how one character is built from a few flat shapes, from capsule body to face, before the color drops in. Four of the characters are shown below on bold halftone backgrounds."
    ],
    "tr": [
-    "Biraz matruşka bebekleri gibi, kapsül şeklinde karakterlerden oluşan bir set. Her birinin kendi yüzü, kıyafeti ve ruh hâli var; hepsi birkaç düz şekilden kurulmuş.",
+    "Biraz matruşka bebekleri gibi, kapsül şeklinde karakterlerden oluşan bir set. Her birinin kendi yüzü, kıyafeti ve ruh hâli var. Hepsi birkaç düz şekilden kurulmuş.",
     "Animasyon, bir karakterin kapsül gövdeden yüze kadar birkaç düz şekilden nasıl kurulduğunu, ardından rengin nasıl düştüğünü gösteriyor. Aşağıda karakterlerden dördü, cesur yarım ton arka planlarda yer alıyor."
    ]
   },
@@ -2519,11 +2519,11 @@ const PROJECTS = [
   "hero": [],
   "desc": {
    "en": [
-    "Three BtcTurk films made with AI: two for Türkiye’s national football team and one for Bitcoin Pizza Day.",
+    "Three BtcTurk films made with AI. Two are for Türkiye’s national football team and one is for Bitcoin Pizza Day.",
     "The national team films aired on TV when the team went to the World Cup. BtcTurk | Hisse and BtcTurk | Kripto are the main sponsors of Türkiye’s national football teams."
    ],
    "tr": [
-    "Yapay zekâ ile üretilmiş üç BtcTurk filmi: ikisi Türkiye milli futbol takımı için, biri Bitcoin Pizza Günü için.",
+    "Yapay zekâ ile üretilmiş üç BtcTurk filmi. İkisi Türkiye milli futbol takımı için, biri Bitcoin Pizza Günü için hazırlandı.",
     "Milli takım filmleri, takım Dünya Kupası’na giderken televizyonda yayınlandı. BtcTurk | Hisse ve BtcTurk | Kripto, Türkiye milli futbol takımlarının ana sponsorları."
    ]
   },
@@ -2559,8 +2559,8 @@ const PROJECTS = [
     "title": "Dünyaya Meydan Okuyan A Milli Takımımıza Yürekten Başarılar Diliyoruz!",
     "flip": true,
     "text": {
-     "en": "“Dünyaya meydan okuyoruz” (“We take on the world”): BtcTurk | Kripto’s message to the A National Team, made with AI and aired on TV on the way to the World Cup.",
-     "tr": "“Dünyaya meydan okuyoruz”: BtcTurk | Kripto’dan A Milli Takım’a, yapay zekâ ile hazırlanan ve Dünya Kupası yolunda televizyonda yayınlanan bir mesaj."
+     "en": "“Dünyaya meydan okuyoruz” (“We take on the world”) is BtcTurk | Kripto’s message to the A National Team, made with AI. It aired on TV on the way to the World Cup.",
+     "tr": "“Dünyaya meydan okuyoruz”, BtcTurk | Kripto’dan A Milli Takım’a yapay zekâ ile hazırlanmış bir mesaj. Film Dünya Kupası yolunda televizyonda yayınlandı."
     }
    },
    {
@@ -2569,8 +2569,8 @@ const PROJECTS = [
     "thumb": "yt-pizza",
     "title": "Bitcoin Pizza Günü Kutlu Olsun!",
     "text": {
-     "en": "Bitcoin Pizza Day marks the first known purchase made with Bitcoin: on 22 May 2010, Laszlo Hanyecz paid 10,000 BTC for two pizzas. The film tells the story of that day, which became Bitcoin Pizza Day.",
-     "tr": "Bitcoin Pizza Günü, Bitcoin ile yapılan bilinen ilk alışverişi anıyor: 22 Mayıs 2010’da Laszlo Hanyecz iki pizza için 10.000 BTC ödedi. Film, o günü Bitcoin Pizza Günü yapan bu hikâyeyi anlatıyor."
+     "en": "Bitcoin Pizza Day marks the first known purchase made with Bitcoin. On 22 May 2010, Laszlo Hanyecz paid 10,000 BTC for two pizzas. The film tells the story that turned that day into Bitcoin Pizza Day.",
+     "tr": "Bitcoin Pizza Günü, Bitcoin ile yapılan bilinen ilk alışverişi anıyor. 22 Mayıs 2010’da Laszlo Hanyecz iki pizza için 10.000 BTC ödedi. Film, o günü Bitcoin Pizza Günü yapan bu hikâyeyi anlatıyor."
     }
    }
   ],

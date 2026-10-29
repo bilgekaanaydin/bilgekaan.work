@@ -15,18 +15,18 @@ const UI = {
     all: 'All work', prev: 'Previous project', next: 'Next project',
     client: 'Client', field: 'Field', industry: 'Industry', brand: 'Brand', format: 'Format', production: 'Production',
     recognition: 'Recognition', ytCopied: 'Link copied. YouTube is blocked in this preview, so paste it into a new tab. On the live site the film plays right here.', ytBlockedShort: 'YouTube is blocked in this preview. Copy this link into a new tab:', ytBlocked: 'YouTube is blocked in this preview. On the live site the film plays right here. To watch it now, copy this link into a new tab:', view: 'View project', ai: 'Made with AI', aiGreen: 'Made with', aiBlue: 'AI', aiFirst: 'green', behance: 'See the full project on Behance',
-    play: 'Play film', playIn: 'Watch the film', close: 'Close', openOn: 'Doesn’t play here? Open it on',
+    play: 'Play film', playIn: 'Watch the film', close: 'Close', openOn: 'Doesn’t play here? Open it on', openAfter: '',
     theme: 'Switch between dark and light theme', langName: 'Switch to Turkish',
-    aboutLead: 'Senior art director with six years of experience on both sides of the industry: agency and in-house.',
+    aboutLead: 'Senior art director with six years of experience on both sides of the industry, agency and in-house.',
     aboutP: [
       'I’m Bilge Kaan Aydın. At Tribal Worldwide Istanbul, I spent three years on campaigns for İş Bankası, Turkish Cargo, Miles&Smiles, Turkcell and Şok, among many others. One of those clients was BtcTurk, where I moved in-house.',
-      'Today I shape creative across all four BtcTurk brands as part of a five-person team, from a national football team campaign to cinematic brand films.',
-      'My production is AI-native. I work across the latest generative AI tools and combine them with the Adobe suite and Figma to take ideas from concept to final visual.',
-      'As a freelancer, I work with brands such as İş Bankası, Enpara, Redoxon and Ultrand, leading some projects solo and supporting others.'],
+      'Today, as part of a five-person team, I shape the creative work across all four BtcTurk brands. I keep leading a wide range of projects, from the national team campaign to cinematic brand films.',
+      'My production process keeps growing with technology, and I try every new AI tool that comes out. I combine them with Adobe Creative Cloud and Figma to take an idea from concept to final visual.',
+      'As a freelancer, I work with brands such as İş Bankası, Enpara, Redoxon and Ultrand. I lead some projects on my own and support the team on others.'],
     experience: 'Experience', education: 'Education', tools: 'Tools', elsewhere: 'Elsewhere',
     now: 'now', freelancer: 'Freelancer',
     jobs: { sr: 'Sr. Art Director', ad: 'Art Director', gd: 'Graphic Designer', jr: 'Jr. Art Director', intern: 'Intern' },
-    eduText: 'Maltepe University, bachelor’s degree in Graphic Design. Graduated with a GPA of 3.41.',
+    eduSchool: 'Maltepe University', eduDegree: 'Bachelor’s in Graphic Design', eduNote: 'Graduated with high honors and a 3.41 GPA.',
     toolsText: 'Adobe Illustrator, Photoshop, After Effects, InDesign and XD. Figma. Generative AI tools for image and video.',
     contactLead: 'Open to freelance projects and full-time roles.',
     email: 'Email', basedIn: 'Based in', city: 'Istanbul, Türkiye', rights: '© 2026 Bilge Kaan Aydın'
@@ -37,18 +37,18 @@ const UI = {
     all: 'Tüm işler', prev: 'Önceki proje', next: 'Sonraki proje',
     client: 'Müşteri', field: 'Alan', industry: 'Sektör', brand: 'Marka', format: 'Format', production: 'Üretim',
     recognition: 'Ödüller', ytCopied: 'Bağlantı kopyalandı. Bu önizlemede YouTube engelleniyor; yeni sekmeye yapıştır. Canlı sitede film tam burada oynayacak.', ytBlockedShort: 'Bu önizlemede YouTube engelleniyor. Bu bağlantıyı yeni sekmeye kopyala:', ytBlocked: 'Bu önizlemede YouTube engelleniyor. Canlı sitede film tam burada oynayacak. Şimdi izlemek için bu bağlantıyı yeni bir sekmeye yapıştır:', view: 'Projeyi gör', ai: 'AI ile üretildi', aiGreen: 'ile üretildi', aiBlue: 'AI', aiFirst: 'blue', behance: 'Projenin tamamı Behance’te',
-    play: 'Filmi oynat', playIn: 'Filmi izle', close: 'Kapat', openOn: 'Burada oynamıyor mu? Şurada aç:',
+    play: 'Filmi oynat', playIn: 'Filmi izle', close: 'Kapat', openOn: 'Burada oynamıyor mu? Videoyu', openAfter: ' üzerinden açabilirsin.',
     theme: 'Koyu ve açık tema arasında geçiş yap', langName: 'İngilizceye geç',
     aboutLead: 'Sektörün iki tarafında, ajansta ve marka içinde, altı yıllık deneyime sahip bir senior art director.',
     aboutP: [
       'Ben Bilge Kaan Aydın. Tribal Worldwide Istanbul’da üç yıl boyunca İş Bankası, Turkish Cargo, Miles&Smiles, Turkcell ve Şok başta olmak üzere birçok marka için kampanyalar yaptım. Bu markalardan biri de BtcTurk’tü ve sonrasında BtcTurk’e in-house geçtim.',
-      'Bugün beş kişilik bir ekibin parçası olarak dört BtcTurk markasının tamamında yaratıcı işleri şekillendiriyorum; milli takım kampanyasından sinematik marka filmlerine kadar.',
-      'Üretim sürecim AI odaklı. Güncel üretken yapay zekâ araçlarını Adobe paketi ve Figma ile birleştirerek fikri konseptten final görsele taşıyorum.',
-      'Freelance olarak İş Bankası, Enpara, Redoxon ve Ultrand gibi markalarla çalışıyorum; bazı projeleri tek başıma yürütüyor, bazılarında ekibe destek oluyorum.'],
+      'Bugün beş kişilik bir ekibin parçası olarak dört BtcTurk markasının tamamında yaratıcı işleri şekillendiriyorum. Milli takım kampanyasından sinematik marka filmlerine kadar birçok farklı çalışmayı yürütmeye devam ediyorum.',
+      'Üretim sürecim teknolojinin gelişmesiyle her yeni AI tool’u deneyerek gelişmeye devam ediyor. Bu araçları Adobe Creative Cloud ve Figma ile birleştirerek fikri konseptten final görsele taşıyorum.',
+      'Freelance olarak İş Bankası, Enpara, Redoxon ve Ultrand gibi markalarla çalışıyorum. Bazı projeleri tek başıma yürütüyor, bazılarında ekibe destek oluyorum.'],
     experience: 'Deneyim', education: 'Eğitim', tools: 'Araçlar', elsewhere: 'Bağlantılar',
     now: 'günümüz', freelancer: 'Freelance',
     jobs: { sr: 'Sr. Art Director', ad: 'Art Director', gd: 'Grafik Tasarımcı', jr: 'Jr. Art Director', intern: 'Stajyer' },
-    eduText: 'Maltepe Üniversitesi, Grafik Tasarım lisans. 3,41 not ortalamasıyla mezun oldum.',
+    eduSchool: 'Maltepe Üniversitesi', eduDegree: 'Grafik Tasarım Lisans', eduNote: 'Yüksek onur derecesiyle ve 3,41 GPA ile mezun oldum.',
     toolsText: 'Adobe Illustrator, Photoshop, After Effects, InDesign ve XD. Figma. Görsel ve video için üretken yapay zekâ araçları.',
     contactLead: 'Freelance projelere ve tam zamanlı pozisyonlara açığım.',
     email: 'E-posta', basedIn: 'Konum', city: 'İstanbul, Türkiye', rights: '© 2026 Bilge Kaan Aydın'
@@ -166,7 +166,7 @@ function embedSrc(prov, id) {
 function pageSrc(prov, id) { return prov === 'dm' ? `https://www.dailymotion.com/video/${id}` : `https://www.youtube.com/watch?v=${id}`; }
 function openPlayer(prov, id) {
   frame.innerHTML = HOSTED_PREVIEW ? `<div class="pnote modalnote">${esc(t('ytBlocked'))}<br><span class="sel">${esc(pageSrc(prov, id))}</span></div>` : `<iframe src="${embedSrc(prov, id)}" title="Video" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
-  document.getElementById('pfall').innerHTML = `${esc(t('openOn'))} <a href="${pageSrc(prov, id)}" target="_blank" rel="noopener">${prov === 'dm' ? 'Dailymotion' : 'YouTube'}</a>`;
+  document.getElementById('pfall').innerHTML = `${esc(t('openOn'))} <a href="${pageSrc(prov, id)}" target="_blank" rel="noopener">${prov === 'dm' ? 'Dailymotion' : 'YouTube'}</a>${esc(t('openAfter') || '')}`;
   document.getElementById('pclose').textContent = U(t('close'));
   player.classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -371,7 +371,7 @@ function aboutView() {
           <div>${awardHTML({k:'kristal',n:1}, true)}${awardHTML({k:'bronz',n:1}, true)}<a href="#turkish-airlines-a-new-thrill">Turkish Airlines / A New Thrill</a></div>
         </div>
         <h2>${esc(U(t('education')))}</h2>
-        <div><p>${esc(t('eduText'))}</p></div>
+        <div><div class="job"><span class="when">2017 – 2021</span><span><b>${esc(t('eduSchool'))}</b><small>${esc(t('eduDegree'))}</small></span><span>${esc(t('eduNote'))}</span></div></div>
         <h2>${esc(U(t('tools')))}</h2>
         <div><p>${esc(t('toolsText'))}</p></div>
         <h2>${esc(U(t('elsewhere')))}</h2>
