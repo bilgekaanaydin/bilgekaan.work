@@ -310,3 +310,13 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
   .story .b-player{max-width:960px}
   .story .b-one:not(.hero) figure img,.story .b-one:not(.hero) figure video{width:100%;max-height:min(70vh,640px);object-fit:contain}
 }
+.award{--aw:156px;width:var(--aw);justify-content:flex-start}
+.card .award{--aw:110px}
+.award > :nth-child(2){margin:0 auto}
+.award .al{font-size:.72em;letter-spacing:.02em;line-height:1;white-space:nowrap}
+.award.k img{transform:translateY(-13.4%)}
+.chip.ai,.c-meta .chip.ai,.card .chip.ai{display:inline-flex;align-items:stretch;height:30px;padding:0;border:0;background:transparent;font-size:11px;font-weight:700;letter-spacing:.07em;line-height:1}
+.chip.ai span{display:inline-flex;align-items:center;padding:0 11px}
+.chip.ai .g{background:#C3F84A;color:#070707}
+.chip.ai .bl{background:#136CFC;color:#fff}
+.c-meta .chip.ai{height:36px;font-size:12px}

@@ -14,7 +14,7 @@ const UI = {
     open: 'Art direction for brands, campaigns and films',
     all: 'All work', prev: 'Previous project', next: 'Next project',
     client: 'Client', field: 'Field', industry: 'Industry', brand: 'Brand', format: 'Format', production: 'Production',
-    recognition: 'Recognition', ytCopied: 'Link copied. YouTube is blocked in this preview, so paste it into a new tab. On the live site the film plays right here.', ytBlockedShort: 'YouTube is blocked in this preview. Copy this link into a new tab:', ytBlocked: 'YouTube is blocked in this preview. On the live site the film plays right here. To watch it now, copy this link into a new tab:', view: 'View project', ai: 'Made with AI', behance: 'See the full project on Behance',
+    recognition: 'Recognition', ytCopied: 'Link copied. YouTube is blocked in this preview, so paste it into a new tab. On the live site the film plays right here.', ytBlockedShort: 'YouTube is blocked in this preview. Copy this link into a new tab:', ytBlocked: 'YouTube is blocked in this preview. On the live site the film plays right here. To watch it now, copy this link into a new tab:', view: 'View project', ai: 'Made with AI', aiGreen: 'Made with', aiBlue: 'AI', aiFirst: 'green', behance: 'See the full project on Behance',
     play: 'Play film', playIn: 'Watch the film', close: 'Close', openOn: 'Doesn’t play here? Open it on',
     theme: 'Switch between dark and light theme', langName: 'Switch to Turkish',
     aboutLead: 'Senior art director with six years of experience on both sides of the industry: agency and in-house.',
@@ -36,7 +36,7 @@ const UI = {
     open: 'Markalar, kampanyalar ve filmler için sanat yönetmenliği',
     all: 'Tüm işler', prev: 'Önceki proje', next: 'Sonraki proje',
     client: 'Müşteri', field: 'Alan', industry: 'Sektör', brand: 'Marka', format: 'Format', production: 'Üretim',
-    recognition: 'Ödüller', ytCopied: 'Bağlantı kopyalandı. Bu önizlemede YouTube engelleniyor; yeni sekmeye yapıştır. Canlı sitede film tam burada oynayacak.', ytBlockedShort: 'Bu önizlemede YouTube engelleniyor. Bu bağlantıyı yeni sekmeye kopyala:', ytBlocked: 'Bu önizlemede YouTube engelleniyor. Canlı sitede film tam burada oynayacak. Şimdi izlemek için bu bağlantıyı yeni bir sekmeye yapıştır:', view: 'Projeyi gör', ai: 'AI ile üretildi', behance: 'Projenin tamamı Behance’te',
+    recognition: 'Ödüller', ytCopied: 'Bağlantı kopyalandı. Bu önizlemede YouTube engelleniyor; yeni sekmeye yapıştır. Canlı sitede film tam burada oynayacak.', ytBlockedShort: 'Bu önizlemede YouTube engelleniyor. Bu bağlantıyı yeni sekmeye kopyala:', ytBlocked: 'Bu önizlemede YouTube engelleniyor. Canlı sitede film tam burada oynayacak. Şimdi izlemek için bu bağlantıyı yeni bir sekmeye yapıştır:', view: 'Projeyi gör', ai: 'AI ile üretildi', aiGreen: 'ile üretildi', aiBlue: 'AI', aiFirst: 'blue', behance: 'Projenin tamamı Behance’te',
     play: 'Filmi oynat', playIn: 'Filmi izle', close: 'Kapat', openOn: 'Burada oynamıyor mu? Şurada aç:',
     theme: 'Koyu ve açık tema arasında geçiş yap', langName: 'İngilizceye geç',
     aboutLead: 'Sektörün iki tarafında, ajansta ve marka içinde, altı yıllık deneyime sahip bir senior art director.',
@@ -211,19 +211,24 @@ document.addEventListener('click', e => {
 });
 
 /* ---------- awards ---------- */
+function aiChip() {
+  const g = `<span class="g">${esc(U(t('aiGreen')))}</span>`, bl = `<span class="bl">${esc(U(t('aiBlue')))}</span>`;
+  return `<span class="chip ai" title="${esc(t('ai'))}">${t('aiFirst') === 'blue' ? bl + g : g + bl}</span>`;
+}
 function awardHTML(a, big) {
   const b = big ? ' big' : '';
+  a = Object.assign({ n: 1 }, a);
   if (a.k === 'kristal') return `<span class="award k${b}" title="Kristal Elma"><span>${a.n}×</span><img src="${IMGS['logo-kristal']}" alt="Kristal Elma"></span>`;
   if (a.k === 'felis') return `<span class="award f${b}" title="Felis"><span>${a.n}×</span><img src="${IMGS['logo-felis']}" alt="Felis"></span>`;
   if (a.k === 'bronz') return `<span class="award br${b}" title="Bronz Elma"><span>${a.n}×</span><span class="al">BRONZ ELMA</span></span>`;
-  return `<span class="award e${b}" title="Effie"><img src="${IMGS['logo-effie']}" alt="Effie"></span>`;
+  return `<span class="award e${b}" title="Effie"><span>${a.n}×</span><img src="${IMGS['logo-effie']}" alt="Effie"></span>`;
 }
 
 /* ---------- work ---------- */
 let introPlayed = false;
 
 function cardHTML(p) {
-  const bits = (p.awards || []).map(a => awardHTML(a, false)).join('') + (p.ai ? `<span class="chip">${esc(U(t('ai')))}</span>` : '');
+  const bits = (p.awards || []).map(a => awardHTML(a, false)).join('') + (p.ai ? aiChip() : '');
   const badges = bits ? `<div class="badges">${bits}</div>` : '';
   const pv = p.preview && VIDS[p.preview];
   const prev = pv ? `<video class="vid card-vid" data-src="${VIDS[p.preview].u}" style="object-position:${p.previewPos || '50% 50%'}" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>` : '';
@@ -322,7 +327,7 @@ function storyView(p) {
     : `<div class="b-pair hero">${p.hero.map(fig).join('')}</div>`;
   const meta = metaItems(p).map(m => `<div><dt>${m[0]}</dt><dd>${m[1]}</dd></div>`).join('');
   const aw = (p.awards || []).length ? `<div><dt>${esc(U(t('recognition')))}</dt><dd>${p.awards.map(a => awardHTML(a, true)).join('')}</dd></div>` : '';
-  const ai = p.ai ? `<div><dt>${esc(U(t('production')))}</dt><dd><span class="chip">${esc(U(t('ai')))}</span></dd></div>` : '';
+  const ai = p.ai ? `<div><dt>${esc(U(t('production')))}</dt><dd>${aiChip()}</dd></div>` : '';
   app.innerHTML = `
     <article class="story">
       <a class="back" href="#work">${esc(U(t('all')))}</a>
