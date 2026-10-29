@@ -560,7 +560,8 @@ const PROJECTS = [
   "awards": [],
   "alts": {},
   "layout": "story",
-  "preview": "mx-case"
+  "preview": "mx-case",
+  "heroFull": true
  },
  {
   "slug": "barbie-sokta",

@@ -323,7 +323,7 @@ function storyView(p) {
     : `<figure>${mediaHTML(k, alt(k)).replace('loading="lazy"', 'loading="eager"')}</figure>`;
   const hero = !p.hero || !p.hero.length ? ''
     : p.hero.length === 1
-    ? `<div class="${p.heroBleed ? 'b-bleed' : 'b-one'} hero">${fig(p.hero[0])}</div>`
+    ? `<div class="${p.heroBleed ? 'b-bleed' : 'b-one'} hero${p.heroFull ? ' full' : ''}">${fig(p.hero[0])}</div>`
     : `<div class="b-pair hero">${p.hero.map(fig).join('')}</div>`;
   const meta = metaItems(p).map(m => `<div><dt>${m[0]}</dt><dd>${m[1]}</dd></div>`).join('');
   const aw = (p.awards || []).length ? `<div><dt>${esc(U(t('recognition')))}</dt><dd>${p.awards.map(a => awardHTML(a, true)).join('')}</dd></div>` : '';
