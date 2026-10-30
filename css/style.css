@@ -250,6 +250,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--fg);outline-offset:
 .foot-left{display:flex;align-items:center;gap:14px}
 .foot-left .soc{display:flex;gap:8px}
 .foot-left .bar{opacity:.6}
+body[data-view="about"] .foot-left .soc,body[data-view="about"] .foot-left .bar,body[data-view="contact"] .foot-left .soc,body[data-view="contact"] .foot-left .bar{display:none}
 
 @media (max-width:900px){
   .split{grid-template-columns:1fr}

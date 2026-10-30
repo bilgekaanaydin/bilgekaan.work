@@ -407,6 +407,7 @@ function render(keep) {
   else if (key === 'about') { aboutView(); view = 'about'; document.title = `${t('about')} — Bilge Kaan`; }
   else if (key === 'contact') { contactView(); view = 'contact'; document.title = `${t('contact')} — Bilge Kaan`; }
   else { workView(); document.title = 'Bilge Kaan — Senior Art Director'; }
+  document.body.dataset.view = view;
   document.querySelectorAll('[data-nav]').forEach(a => {
     if (a.dataset.nav === view) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   });
