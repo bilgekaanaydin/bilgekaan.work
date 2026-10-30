@@ -22,13 +22,13 @@ const UI = {
       'I’m Bilge Kaan Aydın. At Tribal Worldwide Istanbul, I spent three years on campaigns for İş Bankası, Turkish Cargo, Miles&Smiles, Turkcell and Şok, among many others. One of those clients was BtcTurk, where I moved in-house.',
       'Today, as part of a five-person team, I shape the creative work across all four BtcTurk brands. I keep leading a wide range of projects, from the national team campaign to cinematic brand films.',
       'My production process keeps growing with technology, and I try every new AI tool that comes out. I combine them with Adobe Creative Cloud and Figma to take an idea from concept to final visual.',
-      'As a freelancer, I work with brands such as İş Bankası, Enpara, Redoxon and Ultrand. I lead some projects on my own and support the team on others.'],
+      'As a freelancer, I work with brands such as İş Bankası, Enpara, Redoxon and Ultrand. I led some projects on my own and supported the team on others.'],
     experience: 'Experience', education: 'Education', tools: 'Tools', elsewhere: 'Elsewhere',
     now: 'now', freelancer: 'Freelancer',
     jobs: { sr: 'Sr. Art Director', ad: 'Art Director', gd: 'Graphic Designer', jr: 'Jr. Art Director', intern: 'Intern' },
     eduSchool: 'Maltepe University', eduDegree: 'Bachelor’s in Graphic Design', eduNote: 'Graduated with high honors and a 3.41 GPA.',
     toolsText: 'Adobe Illustrator, Photoshop, After Effects, InDesign and XD. Figma. Generative AI tools for image and video.',
-    contactLead: 'Open to freelance projects and full-time roles.',
+    contactLead: 'Open to new projects and collaborations.',
     email: 'Email', basedIn: 'Based in', city: 'Istanbul, Türkiye', rights: '© 2026 Bilge Kaan Aydın'
   },
   tr: {
@@ -44,13 +44,13 @@ const UI = {
       'Ben Bilge Kaan Aydın. Tribal Worldwide Istanbul’da üç yıl boyunca İş Bankası, Turkish Cargo, Miles&Smiles, Turkcell ve Şok başta olmak üzere birçok marka için kampanyalar yaptım. Bu markalardan biri de BtcTurk’tü ve sonrasında BtcTurk’e in-house geçtim.',
       'Bugün beş kişilik bir ekibin parçası olarak dört BtcTurk markasının tamamında yaratıcı işleri şekillendiriyorum. Milli takım kampanyasından sinematik marka filmlerine kadar birçok farklı çalışmayı yürütmeye devam ediyorum.',
       'Üretim sürecim teknolojinin gelişmesiyle her yeni AI tool’u deneyerek gelişmeye devam ediyor. Bu araçları Adobe Creative Cloud ve Figma ile birleştirerek fikri konseptten final görsele taşıyorum.',
-      'Freelance olarak İş Bankası, Enpara, Redoxon ve Ultrand gibi markalarla çalışıyorum. Bazı projeleri tek başıma yürütüyor, bazılarında ekibe destek oluyorum.'],
+      'Freelance olarak İş Bankası, Enpara, Redoxon ve Ultrand gibi markalarla çalışıyorum. Bazı projeleri tek başıma yürüttüm, bazılarında ekibe destek oldum.'],
     experience: 'Deneyim', education: 'Eğitim', tools: 'Araçlar', elsewhere: 'Bağlantılar',
     now: 'günümüz', freelancer: 'Freelance',
     jobs: { sr: 'Sr. Art Director', ad: 'Art Director', gd: 'Grafik Tasarımcı', jr: 'Jr. Art Director', intern: 'Stajyer' },
     eduSchool: 'Maltepe Üniversitesi', eduDegree: 'Grafik Tasarım Lisans', eduNote: 'Yüksek onur derecesiyle ve 3,41 GPA ile mezun oldum.',
     toolsText: 'Adobe Illustrator, Photoshop, After Effects, InDesign ve XD. Figma. Görsel ve video için üretken yapay zekâ araçları.',
-    contactLead: 'Freelance projelere ve tam zamanlı pozisyonlara açığım.',
+    contactLead: 'Yeni projelere ve iş birliklerine açığım.',
     email: 'E-posta', basedIn: 'Konum', city: 'İstanbul, Türkiye', rights: '© 2026 Bilge Kaan Aydın'
   }
 };
@@ -351,8 +351,8 @@ function storyView(p) {
 function aboutView() {
   const J = t('jobs');
   const jobs = [
-    ['2025 – ' + t('now'), J.sr, t('freelancer'), 'İş Bankası, Enpara, Redoxon, Ultrand, SAHA Robotic, Carexport360'],
     ['2025 – ' + t('now'), J.sr, 'BtcTurk', 'BtcTurk | Hisse, BtcTurk | Kripto, BtcTurk | Global, BtcTurk | Portföy'],
+    ['', J.sr, t('freelancer'), 'İş Bankası, Enpara, Redoxon, Ultrand, SAHA Robotic, Carexport360'],
     ['2022 – 2025', J.ad, 'Tribal Worldwide Istanbul', 'İş Bankası, Maximum, Turkish Cargo, Miles&Smiles, Turkcell, İşCep, BtcTurk, Şok, NOW, Sütaş'],
     ['2022', J.gd, 'SAHA Robotic', ''],
     ['2021', J.jr, 'Antre Project', 'Eve, Aydın Örme, İstanbul Havacılık, Lusso, Pierre Cardin'],
